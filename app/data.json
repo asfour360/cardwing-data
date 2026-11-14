@@ -1,8 +1,8 @@
 {
   "format": "stackjet-app-data",
   "version": 1,
-  "updated": "2026-11-13",
-  "note": "Every section is optional; an empty or missing section leaves that table as built into the app. statusTiers: WestJet, plus Porter, British Airways, Iberia, Aer Lingus and Cathay tiers (2026-11-03). Atmos Rewards four tier names added (2026-11-04). Breeze Rewards tier names added; first-year Breeze Easy Visa status remains conditional (2026-11-04); ALL Accor tiers (2026-11-06). Amex Platinum (Canada) ALL Accor Gold grant, verified on the Amex Canada card page (2026-11-12). tripPhotos: 12 destination country photos, CC0/public domain from Wikimedia Commons, credits in stackjet-photos countries/CREDITS.md (2026-11-13).",
+  "updated": "2026-11-14",
+  "note": "Every section is optional; an empty or missing section leaves that table as built into the app. statusTiers: WestJet, plus Porter, British Airways, Iberia, Aer Lingus and Cathay tiers (2026-11-03). Atmos Rewards four tier names added (2026-11-04). Breeze Rewards tier names added; first-year Breeze Easy Visa status remains conditional (2026-11-04); ALL Accor tiers (2026-11-06). Amex Platinum (Canada) ALL Accor Gold grant, verified on the Amex Canada card page (2026-11-12). tripPhotos: 12 destination country photos, CC0/public domain from Wikimedia Commons, credits in stackjet-photos countries/CREDITS.md (2026-11-13). statusMatchCards: Wyndham Earner Plus to Platinum, Choice Privileges Select added, United Club IHG Platinum, IHG Business and Ritz-Carlton notes (2026-11-14).",
   "transferPartners": {
     "citi-us": [
       {
@@ -980,7 +980,7 @@
           "program": "marriott",
           "rank": 2,
           "tier": "Marriott Bonvoy Gold",
-          "note": "Platinum after $75,000 spend. Closed to new applicants."
+          "note": "Platinum after $75,000 spend in a calendar year. Closed to new applicants."
         }
       ],
       "aliases": [
@@ -1051,7 +1051,7 @@
           "program": "ihg",
           "rank": 3,
           "tier": "IHG Platinum Elite",
-          "note": "Diamond after $50,000 spend."
+          "note": "Diamond after $50,000 spend from January 1, 2027."
         }
       ]
     },
@@ -1110,8 +1110,8 @@
       "grants": [
         {
           "program": "wyndham",
-          "rank": 3,
-          "tier": "Wyndham Diamond",
+          "rank": 2,
+          "tier": "Wyndham Platinum",
           "note": "Diamond in year 1, then Platinum."
         }
       ]
@@ -1144,6 +1144,19 @@
           "rank": 1,
           "tier": "Choice Privileges Gold"
         }
+      ]
+    },
+    {
+      "name": "Choice Privileges Select Mastercard",
+      "grants": [
+        {
+          "program": "choice",
+          "rank": 2,
+          "tier": "Choice Privileges Platinum"
+        }
+      ],
+      "aliases": [
+        "Wells Fargo Choice Privileges Select"
       ]
     },
     {
@@ -1224,6 +1237,12 @@
     {
       "name": "United Club Infinite",
       "grants": [
+        {
+          "program": "ihg",
+          "rank": 3,
+          "tier": "IHG Platinum Elite",
+          "note": "Register at united.com/ihgstatus."
+        },
         {
           "program": "avis",
           "rank": 2,
