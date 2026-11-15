@@ -764,6 +764,68 @@
       "url": "https://www.nationalcar.ca/en/support/car-rental-faqs/higher-status-with-competitor-match.html"
     }
   ],
+  "partnerStatuses": [
+    {
+      "source": "marriott",
+      "minRank": 4,
+      "destProgram": "united",
+      "destRank": 1,
+      "dest": "United Premier Silver",
+      "link": true,
+      "detail": "Register once for RewardsPlus (free), Titanium Elite or higher. Status shows in 7–10 days and lasts to the end of the calendar year; it renews if you requalify.",
+      "url": "https://travel-partner.marriott.com/united/en-us/faqs"
+    },
+    {
+      "source": "united",
+      "minRank": 2,
+      "destProgram": "marriott",
+      "destRank": 2,
+      "dest": "Marriott Bonvoy Gold Elite",
+      "link": true,
+      "detail": "Register once for RewardsPlus (free), Premier Gold or higher. Status shows in 7–10 days and lasts to the end of the calendar year; it renews if you requalify.",
+      "url": "https://travel-partner.marriott.com/united/en-us/faqs"
+    },
+    {
+      "source": "delta",
+      "minRank": 1,
+      "destProgram": "hertz",
+      "destRank": 1,
+      "dest": "Hertz Five Star",
+      "link": true,
+      "detail": "Silver and Gold Medallion. Add your Hertz Gold Plus Rewards number to your SkyMiles profile and enroll (free).",
+      "url": "https://www.delta.com/us/en/skymiles/medallion-program/medallion-benefits"
+    },
+    {
+      "source": "delta",
+      "minRank": 3,
+      "destProgram": "hertz",
+      "destRank": 2,
+      "dest": "Hertz President's Circle",
+      "link": true,
+      "detail": "Platinum and Diamond Medallion. Add your Hertz Gold Plus Rewards number to your SkyMiles profile and enroll (free).",
+      "url": "https://www.delta.com/us/en/skymiles/medallion-program/medallion-benefits"
+    },
+    {
+      "source": "aeroplan",
+      "minRank": 1,
+      "destProgram": "avis",
+      "destRank": 1,
+      "dest": "Avis Preferred Plus",
+      "link": true,
+      "detail": "Aeroplan 25K, 35K and 50K. Enroll once with the Aeroplan form (free); it lasts while you keep your Elite Status.",
+      "url": "https://www.aircanada.com/ca/en/aco/home/aeroplan/partners/avis.html"
+    },
+    {
+      "source": "aeroplan",
+      "minRank": 4,
+      "destProgram": "avis",
+      "destRank": 2,
+      "dest": "Avis President's Club",
+      "link": true,
+      "detail": "Aeroplan 75K and Super Elite. Enroll once with the Aeroplan form (free); it lasts while you keep your Elite Status.",
+      "url": "https://www.aircanada.com/ca/en/aco/home/aeroplan/partners/avis.html"
+    }
+  ],
   "statusMatchCards": [
     {
       "name": "Amex Platinum",
