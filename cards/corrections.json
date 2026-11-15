@@ -1,9 +1,9 @@
 {
   "format": "stackjet-card-corrections",
   "version": 1,
-  "updated": "2026-11-10",
-  "catalogVersion": "1.8.0",
-  "note": "StackJet 1.5 remote card fixes: official RBC Business Cash Back artwork; DoorDash benefit corrections in progress.",
+  "updated": "2026-11-15",
+  "catalogVersion": "1.8.17",
+  "note": "StackJet 1.5 remote card fixes: official RBC Business Cash Back artwork; DoorDash benefit corrections in progress. November 15, 2026: written for card list 1.8.17 (the nine earlier cards now match that list, keeping the RBC Business Cash Back artwork), plus BMO's own card images for BMO Ascend Business Mastercard and BMO CashBack World Elite Business Mastercard.",
   "cards": [
     {
       "id": "rbc-business-cash-back-mastercard-can",
@@ -19,7 +19,7 @@
         "rbc-cash-can"
       ],
       "sourceURL": "https://www.rbcroyalbank.com/business/credit-cards/small-business-credit-cards/business-cash-back-mastercard.html",
-      "checkedOn": "2026-11-03",
+      "checkedOn": "2026-11-11",
       "coverageNote": "Earning structure checked against issuer-published Canadian product/program information. Welcome bonuses are excluded from Best Card rankings. Merchant coding, account-specific terms and issuer changes can affect eligibility.",
       "benefits": [
         {
@@ -43,6 +43,17 @@
           "sourceURL": "https://www.rbcroyalbank.com/business/credit-cards/small-business-credit-cards/business-cash-back-mastercard.html",
           "kind": "protection",
           "priority": 210
+        },
+        {
+          "id": "dashpass",
+          "title": "DoorDash DashPass — 6 months",
+          "detail": "Complimentary DashPass for 6 months. To enrol: add this card to your DoorDash account and tap “Activate Free DashPass”. No DashPass in the previous 6 months; maximum two complimentary periods per lifetime. Eligibility and limits per RBC’s terms. After the free period it renews at C$9.99/month plus tax unless you cancel.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": true,
+          "sourceURL": "https://www.rbcroyalbank.com/doordash/index.html",
+          "kind": "benefit",
+          "priority": 55
         }
       ],
       "statuses": [],
@@ -71,7 +82,8 @@
       "catalogLevel": "partial",
       "availability": "confirm-with-issuer",
       "benefitSourceURLs": [
-        "https://www.rbcroyalbank.com/business/credit-cards/small-business-credit-cards/business-cash-back-mastercard.html"
+        "https://www.rbcroyalbank.com/business/credit-cards/small-business-credit-cards/business-cash-back-mastercard.html",
+        "https://www.rbcroyalbank.com/doordash/index.html"
       ],
       "artworkURL": "https://www.rbcroyalbank.com/business/credit-cards/_assets-custom/images/cards/business-cashback-card.png",
       "foreignTransactionFeePercent": 2.5,
@@ -91,7 +103,7 @@
         "rbc-cash-can"
       ],
       "sourceURL": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
-      "checkedOn": "2026-11-01",
+      "checkedOn": "2026-11-11",
       "coverageNote": "Earning structure checked against issuer-published Canadian product/program information. Welcome bonuses are excluded from Best Card rankings. Merchant coding, account-specific terms and issuer changes can affect eligibility.",
       "benefits": [
         {
@@ -126,12 +138,13 @@
         },
         {
           "id": "pot-doordash-dashpass-for-6-months",
-          "title": "DoorDash DashPass for 6 months",
-          "detail": "Complimentary 3-month DoorDash DashPass subscription for eligible Canadian cardmembers after activation with the card; offer eligibility, qualifying-order terms, renewal and geography restrictions apply.",
+          "title": "DoorDash DashPass — 6 months",
+          "detail": "Complimentary DashPass for 6 months. To enrol: add this card to your DoorDash account and tap “Activate Free DashPass”. No DashPass in the previous 6 months; maximum two complimentary periods per lifetime. Eligibility and limits per RBC’s terms. After the free period it renews at C$9.99/month plus tax unless you cancel.",
           "capMinor": null,
           "reset": "none",
           "enrollmentRequired": true,
-          "sourceURL": "https://help.doordash.com/en-us/consumers/article/dashpass-for-rbc-cardmembers",
+          "sourceURL": "https://www.rbcroyalbank.com/doordash/index.html",
+          "kind": "benefit",
           "priority": 53
         },
         {
@@ -155,17 +168,6 @@
           "sourceURL": "https://princeoftravel.com/credit-cards/rbc-cash-back-mastercard/",
           "kind": "protection",
           "priority": 210
-        },
-        {
-          "id": "doordash-dashpass-value",
-          "title": "DoorDash DashPass — 3-month value",
-          "detail": "Approximate subscription value of the complimentary 3-month DashPass benefit at C$9.99/month, rounded to C$30 for tracking. Activation required; this is a benefit value, not a statement credit.",
-          "capMinor": 3000,
-          "reset": "oneTime",
-          "enrollmentRequired": true,
-          "sourceURL": "https://help.doordash.com/en-us/consumers/article/dashpass-for-rbc-cardmembers",
-          "kind": "credit",
-          "priority": 20
         }
       ],
       "statuses": [],
@@ -218,12 +220,13 @@
       "accountType": "personal",
       "artworkPageURL": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
       "artworkSearchTerms": "RBC Cash Back Mastercard",
-      "reviewURL": "https://princeoftravel.com/credit-cards/",
+      "reviewURL": "https://princeoftravel.com/credit-cards/rbc-cash-back-mastercard/",
       "catalogLevel": "partial",
       "availability": "confirm-with-issuer",
       "benefitSourceURLs": [
         "https://www.rbcroyalbank.com/credit-cards/all-credit-cards.html",
-        "https://princeoftravel.com/credit-cards/rbc-cash-back-mastercard/"
+        "https://princeoftravel.com/credit-cards/rbc-cash-back-mastercard/",
+        "https://www.rbcroyalbank.com/doordash/index.html"
       ],
       "artworkURL": "https://kqphqqvkrdovtyhdapud.supabase.co/storage/v1/object/public/media/2022/06/MC1_en.png",
       "foreignTransactionFeePercent": 2.5,
@@ -243,7 +246,7 @@
         "rbc-cash-can"
       ],
       "sourceURL": "https://www.rbcroyalbank.com/credit-cards/cardholders/cash-back-updates.html",
-      "checkedOn": "2026-11-04",
+      "checkedOn": "2026-11-11",
       "coverageNote": "Issuer page reviewed 2026-11-04: fee and uncapped earning structure effective October 1, 2026. New redemption minimum applies December 2, 2026, not yet active as of review date. Insurance certificate limits not independently rechecked.",
       "accountType": "personal",
       "catalogLevel": "partial",
@@ -302,13 +305,14 @@
         },
         {
           "id": "pot-doordash-dashpass-for-12-months",
-          "title": "DoorDash DashPass offer",
-          "detail": "Complimentary 12-month DoorDash DashPass subscription for eligible Canadian cardmembers after activation with the card; offer eligibility, qualifying-order terms, renewal and geography restrictions apply.",
-          "capMinor": null,
-          "reset": "none",
+          "title": "DoorDash DashPass — 12 months",
+          "detail": "Complimentary DashPass for 12 months (RBC states a value of almost C$120). To enrol: add this card to your DoorDash account and tap “Activate Free DashPass”. No DashPass in the previous 6 months; maximum two complimentary periods per lifetime. Eligibility and limits per RBC’s terms. After the free period it renews at C$9.99/month plus tax unless you cancel.",
+          "capMinor": 12000,
+          "reset": "calendarYear",
           "enrollmentRequired": true,
-          "sourceURL": "https://help.doordash.com/en-us/consumers/article/dashpass-for-rbc-cardmembers",
+          "sourceURL": "https://www.rbcroyalbank.com/doordash/index.html",
           "kind": "benefit",
+          "valueNote": "RBC-stated value, almost C$120 for the 12 months",
           "priority": 100
         },
         {
@@ -442,25 +446,15 @@
           "sourceURL": "https://www.rbcroyalbank.com/credit-cards/cardholders/cash-back-updates.html",
           "kind": "benefit",
           "priority": 100
-        },
-        {
-          "id": "doordash-dashpass-value",
-          "title": "DoorDash DashPass — 12-month value",
-          "detail": "Approximate subscription value of the complimentary 12-month DashPass benefit at C$9.99/month, rounded to C$120 for tracking. Activation required; this is a benefit value, not a statement credit.",
-          "capMinor": 12000,
-          "reset": "oneTime",
-          "enrollmentRequired": true,
-          "sourceURL": "https://help.doordash.com/en-us/consumers/article/dashpass-for-rbc-cardmembers",
-          "kind": "credit",
-          "priority": 20
         }
       ],
       "artworkPageURL": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-preferred-world-elite-mastercard.html",
       "artworkSearchTerms": "RBC Cash Back Preferred World Elite Mastercard",
-      "reviewURL": "https://princeoftravel.com/credit-cards/",
+      "reviewURL": "https://princeoftravel.com/credit-cards/rbc-cash-back-preferred-world-elite-mastercard/",
       "benefitSourceURLs": [
         "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-preferred-world-elite-mastercard.html",
-        "https://princeoftravel.com/credit-cards/rbc-cash-back-preferred-world-elite-mastercard/"
+        "https://princeoftravel.com/credit-cards/rbc-cash-back-preferred-world-elite-mastercard/",
+        "https://www.rbcroyalbank.com/doordash/index.html"
       ],
       "artworkURL": "https://kqphqqvkrdovtyhdapud.supabase.co/storage/v1/object/public/media/2021/01/MCP_en.png"
     },
@@ -478,7 +472,7 @@
         "rbc-avion-can"
       ],
       "sourceURL": "https://www.rbcroyalbank.com/credit-cards/travel/rbc-visa-platinum-avion.html",
-      "checkedOn": "2026-11-04",
+      "checkedOn": "2026-11-11",
       "coverageNote": "2026-11-04 issuer product-page review: 1x earning, fixed-points flights, non-expiry, transfer partners and RBC offers confirmed. Certificate-level insurance maximums retained as existing catalog snapshots and still require independent verification.",
       "accountType": "personal",
       "catalogLevel": "partial",
@@ -670,13 +664,14 @@
         },
         {
           "id": "issuer-doordash-dashpass",
-          "title": "DoorDash DashPass offer",
-          "detail": "Complimentary 12-month DoorDash DashPass subscription for eligible Canadian cardmembers after activation with the card; offer eligibility, qualifying-order terms, renewal and geography restrictions apply.",
-          "capMinor": null,
-          "reset": "none",
+          "title": "DoorDash DashPass — 12 months",
+          "detail": "Complimentary DashPass for 12 months (RBC states a value of almost C$120). To enrol: add this card to your DoorDash account and tap “Activate Free DashPass”. No DashPass in the previous 6 months; maximum two complimentary periods per lifetime. Eligibility and limits per RBC’s terms. After the free period it renews at C$9.99/month plus tax unless you cancel.",
+          "capMinor": 12000,
+          "reset": "calendarYear",
           "enrollmentRequired": true,
-          "sourceURL": "https://help.doordash.com/en-us/consumers/article/dashpass-for-rbc-cardmembers",
+          "sourceURL": "https://www.rbcroyalbank.com/doordash/index.html",
           "kind": "benefit",
+          "valueNote": "RBC-stated value, almost C$120 for the 12 months",
           "priority": 100
         },
         {
@@ -700,25 +695,15 @@
           "sourceURL": "https://www.rbcroyalbank.com/credit-cards/travel/rbc-visa-platinum-avion.html",
           "kind": "protection",
           "priority": 100
-        },
-        {
-          "id": "doordash-dashpass-value",
-          "title": "DoorDash DashPass — 12-month value",
-          "detail": "Approximate subscription value of the complimentary 12-month DashPass benefit at C$9.99/month, rounded to C$120 for tracking. Activation required; this is a benefit value, not a statement credit.",
-          "capMinor": 12000,
-          "reset": "oneTime",
-          "enrollmentRequired": true,
-          "sourceURL": "https://help.doordash.com/en-us/consumers/article/dashpass-for-rbc-cardmembers",
-          "kind": "credit",
-          "priority": 20
         }
       ],
       "artworkPageURL": "https://princeoftravel.com/credit-cards/rbc-avion-visa-platinum/",
       "artworkSearchTerms": "RBC Avion Visa Platinum",
-      "reviewURL": "https://princeoftravel.com/credit-cards/",
+      "reviewURL": "https://princeoftravel.com/credit-cards/rbc-avion-visa-platinum/",
       "benefitSourceURLs": [
         "https://www.rbcroyalbank.com/credit-cards/travel/rbc-visa-platinum-avion.html",
-        "https://princeoftravel.com/credit-cards/rbc-avion-visa-platinum/"
+        "https://princeoftravel.com/credit-cards/rbc-avion-visa-platinum/",
+        "https://www.rbcroyalbank.com/doordash/index.html"
       ],
       "artworkURL": "https://kqphqqvkrdovtyhdapud.supabase.co/storage/v1/object/public/media/2021/09/gcp_platinumavion_en_sm2x.png"
     },
@@ -736,7 +721,7 @@
         "ba-avios"
       ],
       "sourceURL": "https://www.rbcroyalbank.com/credit-cards/travel/rbc-british-airways-visa-infinite.html",
-      "checkedOn": "2026-11-04",
+      "checkedOn": "2026-11-15",
       "coverageNote": "2026-11-04 issuer product-page audit: seven previously missing RBC and Visa partner benefits added; British Airways companion voucher and flight discount descriptions clarified. Existing insurance descriptions have not been revalidated against a current insurance certificate.",
       "benefits": [
         {
@@ -871,13 +856,14 @@
         },
         {
           "id": "issuer-doordash-dashpass",
-          "title": "DoorDash DashPass offer",
-          "detail": "Complimentary 12-month DoorDash DashPass subscription for eligible Canadian cardmembers after activation with the card; offer eligibility, qualifying-order terms, renewal and geography restrictions apply.",
-          "capMinor": null,
-          "reset": "none",
+          "title": "DoorDash DashPass — 12 months",
+          "detail": "Complimentary DashPass for 12 months (RBC states a value of almost C$120). To enrol: add this card to your DoorDash account and tap “Activate Free DashPass”. No DashPass in the previous 6 months; maximum two complimentary periods per lifetime. Eligibility and limits per RBC’s terms. After the free period it renews at C$9.99/month plus tax unless you cancel.",
+          "capMinor": 12000,
+          "reset": "calendarYear",
           "enrollmentRequired": true,
-          "sourceURL": "https://help.doordash.com/en-us/consumers/article/dashpass-for-rbc-cardmembers",
+          "sourceURL": "https://www.rbcroyalbank.com/doordash/index.html",
           "kind": "benefit",
+          "valueNote": "RBC-stated value, almost C$120 for the 12 months",
           "priority": 75
         },
         {
@@ -934,17 +920,6 @@
           "sourceURL": "https://www.rbcroyalbank.com/credit-cards/travel/rbc-british-airways-visa-infinite.html",
           "kind": "benefit",
           "priority": 75
-        },
-        {
-          "id": "doordash-dashpass-value",
-          "title": "DoorDash DashPass — 12-month value",
-          "detail": "Approximate subscription value of the complimentary 12-month DashPass benefit at C$9.99/month, rounded to C$120 for tracking. Activation required; this is a benefit value, not a statement credit.",
-          "capMinor": 12000,
-          "reset": "oneTime",
-          "enrollmentRequired": true,
-          "sourceURL": "https://help.doordash.com/en-us/consumers/article/dashpass-for-rbc-cardmembers",
-          "kind": "credit",
-          "priority": 20
         }
       ],
       "statuses": [],
@@ -980,13 +955,14 @@
         {
           "id": "dining",
           "categories": [
-            "dining"
+            "dining",
+            "foodDelivery"
           ],
           "rate": 2,
           "rewardKind": "points",
           "programID": "ba-avios",
           "label": "Avios",
-          "detail": "Eligible dining purchases.",
+          "detail": "Eligible dining and food delivery purchases.",
           "countries": [],
           "capReset": "none",
           "sourceURL": "https://www.rbcroyalbank.com/credit-cards/travel/rbc-british-airways-visa-infinite.html"
@@ -995,13 +971,14 @@
       "accountType": "personal",
       "artworkPageURL": "https://princeoftravel.com/credit-cards/rbc-british-airways-visa-infinite/",
       "artworkSearchTerms": "RBC British Airways Visa Infinite",
-      "reviewURL": "https://princeoftravel.com/credit-cards/",
+      "reviewURL": "https://princeoftravel.com/credit-cards/rbc-british-airways-visa-infinite/",
       "catalogLevel": "partial",
       "availability": "confirm-with-issuer",
       "artworkURL": "https://kqphqqvkrdovtyhdapud.supabase.co/storage/v1/object/public/media/2020/11/RBC-British-Airways.png",
       "benefitSourceURLs": [
         "https://www.rbcroyalbank.com/credit-cards/travel/rbc-british-airways-visa-infinite.html",
-        "https://princeoftravel.com/credit-cards/rbc-british-airways-visa-infinite/"
+        "https://princeoftravel.com/credit-cards/rbc-british-airways-visa-infinite/",
+        "https://www.rbcroyalbank.com/doordash/index.html"
       ],
       "foreignTransactionFeePercent": 2.5,
       "earningDataComplete": true
@@ -1020,7 +997,7 @@
         "rbc-avion-can"
       ],
       "sourceURL": "https://www.rbcroyalbank.com/credit-cards/travel/rbc-avion-visa-infinite.html",
-      "checkedOn": "2026-11-04",
+      "checkedOn": "2026-11-11",
       "coverageNote": "2026-11-04 RBC product-page audit: benefits and partner offers checked; pre-existing insurance dollar limits retained pending certificate-level revalidation. Welcome offers excluded as recurring benefits. All partner discounts subject to current eligibility and program terms.",
       "benefits": [
         {
@@ -1056,12 +1033,14 @@
         },
         {
           "id": "pot-doordash-dashpass-for-12-months",
-          "title": "DoorDash DashPass for 12 months",
-          "detail": "Complimentary 12-month DoorDash DashPass subscription for eligible Canadian cardmembers after activation with the card; offer eligibility, qualifying-order terms, renewal and geography restrictions apply.",
-          "capMinor": null,
-          "reset": "none",
+          "title": "DoorDash DashPass — 12 months",
+          "detail": "Complimentary DashPass for 12 months (RBC states a value of almost C$120). To enrol: add this card to your DoorDash account and tap “Activate Free DashPass”. No DashPass in the previous 6 months; maximum two complimentary periods per lifetime. Eligibility and limits per RBC’s terms. After the free period it renews at C$9.99/month plus tax unless you cancel.",
+          "capMinor": 12000,
+          "reset": "calendarYear",
           "enrollmentRequired": true,
-          "sourceURL": "https://help.doordash.com/en-us/consumers/article/dashpass-for-rbc-cardmembers",
+          "sourceURL": "https://www.rbcroyalbank.com/doordash/index.html",
+          "kind": "benefit",
+          "valueNote": "RBC-stated value, almost C$120 for the 12 months",
           "priority": 51
         },
         {
@@ -1271,17 +1250,6 @@
           "sourceURL": "https://www.rbcroyalbank.com/credit-cards/travel/rbc-avion-visa-infinite.html",
           "kind": "benefit",
           "priority": 90
-        },
-        {
-          "id": "doordash-dashpass-value",
-          "title": "DoorDash DashPass — 12-month value",
-          "detail": "Approximate subscription value of the complimentary 12-month DashPass benefit at C$9.99/month, rounded to C$120 for tracking. Activation required; this is a benefit value, not a statement credit.",
-          "capMinor": 12000,
-          "reset": "oneTime",
-          "enrollmentRequired": true,
-          "sourceURL": "https://help.doordash.com/en-us/consumers/article/dashpass-for-rbc-cardmembers",
-          "kind": "credit",
-          "priority": 20
         }
       ],
       "statuses": [],
@@ -1321,14 +1289,15 @@
       "accountType": "personal",
       "artworkPageURL": "https://princeoftravel.com/credit-cards/rbc-avion-visa-infinite/",
       "artworkSearchTerms": "RBC Avion Visa Infinite",
-      "reviewURL": "https://princeoftravel.com/credit-cards/",
+      "reviewURL": "https://princeoftravel.com/credit-cards/rbc-avion-visa-infinite/",
       "catalogLevel": "partial",
       "availability": "confirm-with-issuer",
       "foreignTransactionFeePercent": 2.5,
       "artworkURL": "https://kqphqqvkrdovtyhdapud.supabase.co/storage/v1/object/public/media/2020/11/RBC-Avion.png",
       "benefitSourceURLs": [
         "https://www.rbcroyalbank.com/credit-cards/travel/rbc-avion-visa-infinite.html",
-        "https://princeoftravel.com/credit-cards/rbc-avion-visa-infinite/"
+        "https://princeoftravel.com/credit-cards/rbc-avion-visa-infinite/",
+        "https://www.rbcroyalbank.com/doordash/index.html"
       ],
       "earningDataComplete": true
     },
@@ -1346,18 +1315,20 @@
         "rbc-avion-can"
       ],
       "sourceURL": "https://www.rbcroyalbank.com/credit-cards/travel/rbc-avion-visa-infinite-privilege.html",
-      "checkedOn": "2026-11-04",
+      "checkedOn": "2026-11-11",
       "coverageNote": "2026-11-04 RBC product-page audit: benefits and partner offers checked; pre-existing insurance dollar limits retained pending certificate-level revalidation. Welcome offers excluded as recurring benefits. All partner discounts subject to current eligibility and program terms.",
       "benefits": [
         {
           "id": "lounge-visits",
           "title": "Visa Airport Companion visits",
           "detail": "Six complimentary lounge visits per membership year through Visa Airport Companion / DragonPass for each enrolled eligible cardholder, subject to RBC's terms and enrollment.",
-          "capMinor": null,
-          "reset": "none",
+          "capMinor": 19200,
+          "passCount": 6,
+          "reset": "anniversary",
           "enrollmentRequired": false,
           "sourceURL": "https://www.rbcroyalbank.com/credit-cards/travel/rbc-avion-visa-infinite-privilege.html",
-          "kind": "benefit"
+          "kind": "benefit",
+          "valueNote": "6 Visa Airport Companion lounge visits a year at the paid visit price"
         },
         {
           "id": "issuer-global-airport-lounge-access",
@@ -1434,12 +1405,14 @@
         },
         {
           "id": "pot-doordash-dashpass-for-12-months",
-          "title": "DoorDash DashPass for 12 months",
-          "detail": "Complimentary 12-month DoorDash DashPass subscription for eligible Canadian cardmembers after activation with the card; offer eligibility, qualifying-order terms, renewal and geography restrictions apply.",
-          "capMinor": null,
-          "reset": "none",
+          "title": "DoorDash DashPass — 12 months",
+          "detail": "Complimentary DashPass for 12 months (RBC states a value of almost C$120). To enrol: add this card to your DoorDash account and tap “Activate Free DashPass”. No DashPass in the previous 6 months; maximum two complimentary periods per lifetime. Eligibility and limits per RBC’s terms. After the free period it renews at C$9.99/month plus tax unless you cancel.",
+          "capMinor": 12000,
+          "reset": "calendarYear",
           "enrollmentRequired": true,
-          "sourceURL": "https://help.doordash.com/en-us/consumers/article/dashpass-for-rbc-cardmembers",
+          "sourceURL": "https://www.rbcroyalbank.com/doordash/index.html",
+          "kind": "benefit",
+          "valueNote": "RBC-stated value, almost C$120 for the 12 months",
           "priority": 54
         },
         {
@@ -1649,17 +1622,6 @@
           "sourceURL": "https://www.rbcroyalbank.com/credit-cards/travel/rbc-avion-visa-infinite-privilege.html",
           "kind": "benefit",
           "priority": 90
-        },
-        {
-          "id": "doordash-dashpass-value",
-          "title": "DoorDash DashPass — 12-month value",
-          "detail": "Approximate subscription value of the complimentary 12-month DashPass benefit at C$9.99/month, rounded to C$120 for tracking. Activation required; this is a benefit value, not a statement credit.",
-          "capMinor": 12000,
-          "reset": "oneTime",
-          "enrollmentRequired": true,
-          "sourceURL": "https://help.doordash.com/en-us/consumers/article/dashpass-for-rbc-cardmembers",
-          "kind": "credit",
-          "priority": 20
         }
       ],
       "statuses": [],
@@ -1682,7 +1644,7 @@
       "accountType": "personal",
       "artworkPageURL": "https://princeoftravel.com/credit-cards/rbc-avion-visa-infinite-privilege/",
       "artworkSearchTerms": "RBC Avion Visa Infinite Privilege",
-      "reviewURL": "https://princeoftravel.com/credit-cards/",
+      "reviewURL": "https://princeoftravel.com/credit-cards/rbc-avion-visa-infinite-privilege/",
       "catalogLevel": "partial",
       "availability": "confirm-with-issuer",
       "loungeAccess": [
@@ -1699,7 +1661,8 @@
       "artworkURL": "https://kqphqqvkrdovtyhdapud.supabase.co/storage/v1/object/public/media/2021/02/avp_infinite_en_sm2x.png",
       "benefitSourceURLs": [
         "https://www.rbcroyalbank.com/credit-cards/travel/rbc-avion-visa-infinite-privilege.html",
-        "https://princeoftravel.com/credit-cards/rbc-avion-visa-infinite-privilege/"
+        "https://princeoftravel.com/credit-cards/rbc-avion-visa-infinite-privilege/",
+        "https://www.rbcroyalbank.com/doordash/index.html"
       ],
       "earningDataComplete": true
     },
@@ -1723,11 +1686,11 @@
         {
           "id": "gigsky-10gb-2026",
           "title": "GigSky annual mobile data and Travel Essentials",
-          "detail": "Current GigSky Canada Visa terms provide one complimentary 1 GB / 15-day plan per year for eligible Visa Infinite+ cardholders, plus applicable ongoing purchase discounts. The prior 10 GB description is no longer current.",
+          "detail": "Eligible cardholders can claim a complimentary 10 GB global data plan for 15 consecutive days each year and unlimited access to Travel Essentials for select apps. The offer also lists one complimentary 1 GB/15-day data plan each year and 20% off future GigSky purchases. Add the eligible card as the default payment method in the GigSky app; GigSky offer terms apply. The 10 GB enhancement is effective April 25, 2026.",
           "capMinor": null,
           "reset": "none",
           "enrollmentRequired": true,
-          "sourceURL": "https://www.gigsky.com/visa/terms?tab=canada",
+          "sourceURL": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/momentum-infinite-card.html",
           "kind": "benefit",
           "priority": 50
         },
@@ -1964,7 +1927,7 @@
       "accountType": "personal",
       "artworkPageURL": "https://princeoftravel.com/credit-cards/scotiabank-momentum-visa-infinite-card/",
       "artworkSearchTerms": "Scotia Momentum Visa Infinite Plus",
-      "reviewURL": "https://princeoftravel.com/credit-cards/",
+      "reviewURL": "https://princeoftravel.com/credit-cards/scotiabank-momentum-visa-infinite-card/",
       "catalogLevel": "partial",
       "availability": "available",
       "benefitSourceURLs": [
@@ -1997,11 +1960,13 @@
           "id": "lounge-visits",
           "title": "Visa Airport Companion visits",
           "detail": "Six complimentary lounge visits per membership year through Visa Airport Companion.",
-          "capMinor": null,
-          "reset": "none",
+          "capMinor": 19200,
+          "passCount": 6,
+          "reset": "anniversary",
           "enrollmentRequired": false,
           "sourceURL": "https://www.scotiabank.com/ca/en/personal/credit-cards/compare-cards.html",
-          "kind": "benefit"
+          "kind": "benefit",
+          "valueNote": "6 Visa Airport Companion lounge visits a year at the paid visit price"
         },
         {
           "id": "no-fx",
@@ -2016,11 +1981,11 @@
         {
           "id": "gigsky",
           "title": "GigSky connectivity (Visa Infinite +)",
-          "detail": "Current GigSky Canada Visa terms provide one complimentary 1 GB / 15-day plan per year for eligible Visa Infinite+ cardholders, plus applicable ongoing purchase discounts. The prior 10 GB description is no longer current.",
+          "detail": "Complimentary 10 GB of GigSky global data for 15 consecutive days annually and access to eligible Travel Essentials; activation and terms apply. Effective April 25, 2026.",
           "capMinor": null,
           "reset": "none",
           "enrollmentRequired": false,
-          "sourceURL": "https://www.gigsky.com/visa/terms?tab=canada",
+          "sourceURL": "https://www.scotiabank.com/ca/en/personal/notices/credit-cards/frequently-asked-questions.html",
           "kind": "benefit"
         },
         {
@@ -2231,7 +2196,7 @@
       "accountType": "personal",
       "artworkPageURL": "https://princeoftravel.com/credit-cards/scotiabank-passport-visa-infinite-card/",
       "artworkSearchTerms": "Scotia Passport Visa Infinite Plus",
-      "reviewURL": "https://princeoftravel.com/credit-cards/",
+      "reviewURL": "https://princeoftravel.com/credit-cards/scotiabank-passport-visa-infinite-card/",
       "catalogLevel": "partial",
       "availability": "available",
       "loungeAccess": [
@@ -2252,6 +2217,358 @@
       ],
       "artworkURL": "https://kqphqqvkrdovtyhdapud.supabase.co/storage/v1/object/public/media/2026/04/SB-Visa-Infinite-Plus-chip-E-PMS-0326.png",
       "earningDataComplete": true
+    },
+    {
+      "id": "bmo-ascend-business-mastercard-can",
+      "name": "BMO Ascend Business Mastercard CAN",
+      "issuer": "BMO",
+      "market": "CAN",
+      "annualFeeMinor": 0,
+      "feeNote": "No annual fee, as stated on BMO's product page.",
+      "colorHex": "478BC1",
+      "secondaryHex": "163F72",
+      "programIDs": [
+        "bmo-can"
+      ],
+      "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-ascend-business-mastercard/",
+      "checkedOn": "2026-11-15",
+      "coverageNote": "Recorded from BMO's product page on November 15, 2026: no annual fee, 2 BMO Rewards points per C$1 on gas, office supplies and cellphone and internet bill payments, 1 point per C$1 on everything else, and the benefits listed here. The page states no spending limit on the 2-point rate, so none is recorded. The page states no foreign currency fee; the 2.5% recorded is the value on BMO's other cards in this list, used until the card's own terms are checked. Welcome offers are excluded from Best Card rankings. No card image is included yet.",
+      "benefits": [
+        {
+          "id": "issuer-purchase-warranty",
+          "title": "Purchase protection and warranty",
+          "detail": "90-day purchase protection and up to one additional year of eligible manufacturer's warranty protection for purchases charged to the card.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-ascend-business-mastercard/",
+          "kind": "benefit",
+          "priority": 100
+        },
+        {
+          "id": "issuer-business-protection",
+          "title": "Employee card liability protection",
+          "detail": "Employee card misuse and zero-liability protections, subject to BMO account and claim requirements.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-ascend-business-mastercard/",
+          "kind": "benefit",
+          "priority": 100
+        },
+        {
+          "id": "issuer-instacart",
+          "title": "Instacart+ benefit",
+          "detail": "Three months of complimentary Instacart+ and a C$5 Instacart credit each month, as listed on BMO's product page; enrollment and offer terms apply.",
+          "capMinor": 500,
+          "reset": "monthly",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-ascend-business-mastercard/",
+          "kind": "credit",
+          "priority": 100
+        },
+        {
+          "id": "issuer-car-rental",
+          "title": "Rental discounts",
+          "detail": "Up to 35% off qualifying prepaid base rates with Avis and Budget at participating locations.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-ascend-business-mastercard/",
+          "kind": "benefit",
+          "priority": 100
+        },
+        {
+          "id": "cirque-du-soleil-discount",
+          "title": "Cirque du Soleil discount",
+          "detail": "Save 20% on touring shows in Canada and 15% on resident shows in Las Vegas, subject to offer terms.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-ascend-business-mastercard/",
+          "kind": "benefit",
+          "priority": 50
+        }
+      ],
+      "statuses": [],
+      "earningRules": [
+        {
+          "id": "base",
+          "categories": [
+            "everything"
+          ],
+          "rate": 1,
+          "rewardKind": "points",
+          "programID": "bmo-can",
+          "label": "points",
+          "detail": "All other eligible purchases.",
+          "countries": [],
+          "capReset": "none",
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-ascend-business-mastercard/"
+        },
+        {
+          "id": "business-2x",
+          "categories": [
+            "gas",
+            "officeSupplies",
+            "telecommunications"
+          ],
+          "rate": 2,
+          "rewardKind": "points",
+          "programID": "bmo-can",
+          "label": "BMO Rewards points",
+          "detail": "Eligible gas, office supply, and cellphone and internet bill payments.",
+          "countries": [],
+          "capReset": "none",
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-ascend-business-mastercard/"
+        }
+      ],
+      "accountType": "business",
+      "artworkPageURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-ascend-business-mastercard/",
+      "artworkSearchTerms": "BMO Ascend Business Mastercard",
+      "catalogLevel": "partial",
+      "availability": "available",
+      "benefitSourceURLs": [
+        "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-ascend-business-mastercard/"
+      ],
+      "foreignTransactionFeePercent": 2.5,
+      "earningDataComplete": true,
+      "artworkURL": "https://www.bmo.com/dam_asset/transform/cd9eeee7-4527-4e8b-be28-87995c81d6bb/EN-BMO-ASCEND-NF-Business-MC-Card-Eng-RGB-for-online?io=width:1352,transform:fit&quality=100&format=jpg"
+    },
+    {
+      "id": "bmo-cashback-world-elite-business-mastercard-can",
+      "name": "BMO CashBack World Elite Business Mastercard CAN",
+      "issuer": "BMO",
+      "market": "CAN",
+      "annualFeeMinor": 17500,
+      "feeNote": "Official BMO annual fee is C$175; BMO waives it for the primary cardholder in the first year.",
+      "colorHex": "478BC1",
+      "secondaryHex": "163F72",
+      "programIDs": [
+        "bmo-cash-can"
+      ],
+      "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+      "checkedOn": "2026-11-15",
+      "coverageNote": "Recorded from BMO's product page on November 15, 2026: C$175 annual fee waived in the first year for the primary cardholder, 5% cash back on gas and EV charging, 4% on recurring expenses, 3% on business expenses such as shipping, insurance, office supplies and telecom services, 1.25% on everything else, and the benefits listed here. The page states no spending limit on any rate, so none is recorded; it lists a free Mastercard Travel Pass membership but no complimentary lounge visits. The page states no foreign currency fee; the 2.5% recorded is the value on BMO's other cards in this list, used until the card's own terms are checked. Welcome offers are excluded from Best Card rankings. No card image is included yet.",
+      "benefits": [
+        {
+          "id": "first-year-fee-rebate",
+          "title": "First-year annual fee rebate",
+          "detail": "Welcome offer: the first-year annual fee (C$175) is rebated on the primary card for new cardholders who meet the offer terms. This is a first-year credit only; slide it to full once the rebate posts.",
+          "capMinor": 17500,
+          "reset": "oneTime",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+          "kind": "credit",
+          "priority": 20
+        },
+        {
+          "id": "ins-emergency-medical",
+          "title": "Emergency medical insurance",
+          "detail": "Up to C$5 million in eligible out-of-province or out-of-country emergency medical expenses, for trips of up to 8 days. Eligibility and exclusions are detailed in the BMO certificate of insurance.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+          "kind": "protection",
+          "priority": 210
+        },
+        {
+          "id": "issuer-flight-delay",
+          "title": "Flight delay insurance",
+          "detail": "Up to C$500 per account for eligible additional accommodation and travel expenses when the flight is delayed more than four hours.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+          "kind": "benefit",
+          "priority": 100
+        },
+        {
+          "id": "issuer-baggage-loss",
+          "title": "Lost and delayed baggage insurance",
+          "detail": "Up to C$500 per insured person, maximum C$1,000 per trip, for lost, stolen or damaged baggage. Up to C$500 for essential items when checked baggage is delayed more than six hours.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+          "kind": "benefit",
+          "priority": 100
+        },
+        {
+          "id": "ins-rental-car",
+          "title": "Rental car collision/loss damage insurance",
+          "detail": "Eligible rental-car collision or theft protection for rental periods up to 48 consecutive days; conditions, covered vehicle types and exclusions apply.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+          "kind": "protection",
+          "priority": 210
+        },
+        {
+          "id": "issuer-purchase-warranty",
+          "title": "Purchase protection and warranty",
+          "detail": "90-day purchase protection and up to one additional year of eligible manufacturer's warranty protection for purchases charged to the card.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+          "kind": "benefit",
+          "priority": 100
+        },
+        {
+          "id": "issuer-business-protection",
+          "title": "Employee card liability protection",
+          "detail": "Employee card misuse and zero-liability protections, subject to BMO account and claim requirements.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+          "kind": "benefit",
+          "priority": 100
+        },
+        {
+          "id": "issuer-dragonpass-membership",
+          "title": "Mastercard Travel Pass membership",
+          "detail": "Free Mastercard Travel Pass membership provided by DragonPass. BMO's page lists the membership only, with no complimentary lounge visits.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+          "kind": "benefit",
+          "priority": 100
+        },
+        {
+          "id": "issuer-roadside-assistance",
+          "title": "Roadside assistance",
+          "detail": "24/7 roadside assistance through the BMO Roadside Assistance Program, provided by the Dominion Automobile Association.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+          "kind": "benefit",
+          "priority": 100
+        },
+        {
+          "id": "issuer-virtual-maple-visits",
+          "title": "Five Maple healthcare visits",
+          "detail": "Five virtual visits with a participating Canadian healthcare provider through Maple, subject to the card's offer conditions.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+          "kind": "benefit",
+          "priority": 100
+        },
+        {
+          "id": "issuer-instacart",
+          "title": "Instacart+ benefit",
+          "detail": "Six months of complimentary Instacart+ and a C$10 Instacart credit each month, as listed on BMO's product page; enrollment and offer terms apply.",
+          "capMinor": 1000,
+          "reset": "monthly",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+          "kind": "credit",
+          "priority": 100
+        },
+        {
+          "id": "issuer-car-rental",
+          "title": "Rental discounts",
+          "detail": "Up to 35% off qualifying prepaid base rates with Avis and Budget at participating locations.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+          "kind": "benefit",
+          "priority": 100
+        },
+        {
+          "id": "cirque-du-soleil-discount",
+          "title": "Cirque du Soleil discount",
+          "detail": "Save 20% on touring shows in Canada and 15% on resident shows in Las Vegas, subject to offer terms.",
+          "capMinor": null,
+          "reset": "none",
+          "enrollmentRequired": false,
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+          "kind": "benefit",
+          "priority": 50
+        }
+      ],
+      "statuses": [],
+      "earningRules": [
+        {
+          "id": "base",
+          "categories": [
+            "everything"
+          ],
+          "rate": 1.25,
+          "rewardKind": "cashback",
+          "programID": "bmo-cash-can",
+          "label": "cash back",
+          "detail": "Eligible purchases.",
+          "countries": [],
+          "capReset": "none",
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/"
+        },
+        {
+          "id": "gas-ev",
+          "categories": [
+            "gas",
+            "evCharging"
+          ],
+          "rate": 5,
+          "rewardKind": "cashback",
+          "programID": "bmo-cash-can",
+          "label": "cash back",
+          "detail": "Eligible gas and EV charging purchases.",
+          "countries": [],
+          "capReset": "none",
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/"
+        },
+        {
+          "id": "recurring",
+          "categories": [
+            "recurringPayments"
+          ],
+          "rate": 4,
+          "rewardKind": "cashback",
+          "programID": "bmo-cash-can",
+          "label": "cash back",
+          "detail": "Eligible recurring expenses, such as regular bills, software subscriptions and monthly services.",
+          "countries": [],
+          "capReset": "none",
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/"
+        },
+        {
+          "id": "business",
+          "categories": [
+            "shipping",
+            "insuranceServices",
+            "officeSupplies",
+            "telecommunications"
+          ],
+          "rate": 3,
+          "rewardKind": "cashback",
+          "programID": "bmo-cash-can",
+          "label": "cash back",
+          "detail": "Eligible business expenses, such as shipping, insurance, office supplies and telecom services.",
+          "countries": [],
+          "capReset": "none",
+          "sourceURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/"
+        }
+      ],
+      "accountType": "business",
+      "artworkPageURL": "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/",
+      "artworkSearchTerms": "BMO CashBack World Elite Business Mastercard",
+      "catalogLevel": "partial",
+      "availability": "available",
+      "benefitSourceURLs": [
+        "https://www.bmo.com/en-ca/main/business/credit-cards/bmo-cashback-world-elite-business-mastercard/"
+      ],
+      "foreignTransactionFeePercent": 2.5,
+      "earningDataComplete": true,
+      "artworkURL": "https://www.bmo.com/dam_asset/transform/e2fdabd1-1612-429f-9645-6303013bf9c2/BMO-Cashback-WE-Business-RGB-Eng-for-online?io=width:1352,transform:fit&quality=100&format=jpg"
     }
   ],
   "removeCards": [],
