@@ -1,8 +1,8 @@
 {
   "format": "stackjet-app-data",
   "version": 1,
-  "updated": "2026-11-14",
-  "note": "Every section is optional; an empty or missing section leaves that table as built into the app. statusTiers: WestJet, plus Porter, British Airways, Iberia, Aer Lingus and Cathay tiers (2026-11-03). Atmos Rewards four tier names added (2026-11-04). Breeze Rewards tier names added; first-year Breeze Easy Visa status remains conditional (2026-11-04); ALL Accor tiers (2026-11-06). Amex Platinum (Canada) ALL Accor Gold grant, verified on the Amex Canada card page (2026-11-12). tripPhotos: 12 destination country photos, CC0/public domain from Wikimedia Commons, credits in stackjet-photos countries/CREDITS.md (2026-11-13). statusMatchCards: Wyndham Earner Plus to Platinum, Choice Privileges Select added, United Club IHG Platinum, IHG Business and Ritz-Carlton notes (2026-11-14). statusMatchCards: aliases so the four Barclays Wyndham Earner cards and the Wells Fargo Choice Privileges card match their wallet names (2026-11-14).",
+  "updated": "2026-11-15",
+  "note": "Every section is optional; an empty or missing section leaves that table as built into the app. statusTiers: WestJet, plus Porter, British Airways, Iberia, Aer Lingus and Cathay tiers (2026-11-03). Atmos Rewards four tier names added (2026-11-04). Breeze Rewards tier names added; first-year Breeze Easy Visa status remains conditional (2026-11-04); ALL Accor tiers (2026-11-06). Amex Platinum (Canada) ALL Accor Gold grant, verified on the Amex Canada card page (2026-11-12). tripPhotos: 12 destination country photos, CC0/public domain from Wikimedia Commons, credits in stackjet-photos countries/CREDITS.md (2026-11-13). statusMatchCards: Wyndham Earner Plus to Platinum, Choice Privileges Select added, United Club IHG Platinum, IHG Business and Ritz-Carlton notes (2026-11-14). statusMatchCards: aliases so the four Barclays Wyndham Earner cards and the Wells Fargo Choice Privileges card match their wallet names (2026-11-14). tripPhotos: 11 more destination country photos (AS AQ AM BS BT KH GE GL GU GW HK) and tall crops for MX and IT, credits in stackjet-photos countries/CREDITS.md (2026-11-15).",
   "transferPartners": {
     "citi-us": [
       {
@@ -2376,7 +2376,18 @@
     "DE": "https://asfour360.github.io/stackjet-photos/countries/de.jpg",
     "NL": "https://asfour360.github.io/stackjet-photos/countries/nl.jpg",
     "JP": "https://asfour360.github.io/stackjet-photos/countries/jp.jpg",
-    "AE": "https://asfour360.github.io/stackjet-photos/countries/ae.jpg"
+    "AE": "https://asfour360.github.io/stackjet-photos/countries/ae.jpg",
+    "AS": "https://asfour360.github.io/stackjet-photos/countries/as.jpg",
+    "AQ": "https://asfour360.github.io/stackjet-photos/countries/aq.jpg",
+    "AM": "https://asfour360.github.io/stackjet-photos/countries/am.jpg",
+    "BS": "https://asfour360.github.io/stackjet-photos/countries/bs.jpg",
+    "BT": "https://asfour360.github.io/stackjet-photos/countries/bt.jpg",
+    "KH": "https://asfour360.github.io/stackjet-photos/countries/kh.jpg",
+    "GE": "https://asfour360.github.io/stackjet-photos/countries/ge.jpg",
+    "GL": "https://asfour360.github.io/stackjet-photos/countries/gl.jpg",
+    "GU": "https://asfour360.github.io/stackjet-photos/countries/gu.jpg",
+    "GW": "https://asfour360.github.io/stackjet-photos/countries/gw.jpg",
+    "HK": "https://asfour360.github.io/stackjet-photos/countries/hk.jpg"
   },
   "tripPhotosTall": {
     "US": "https://asfour360.github.io/stackjet-photos/countries/us-tall.jpg",
@@ -2388,6 +2399,19 @@
     "DE": "https://asfour360.github.io/stackjet-photos/countries/de-tall.jpg",
     "NL": "https://asfour360.github.io/stackjet-photos/countries/nl-tall.jpg",
     "JP": "https://asfour360.github.io/stackjet-photos/countries/jp-tall.jpg",
-    "AE": "https://asfour360.github.io/stackjet-photos/countries/ae-tall.jpg"
+    "AE": "https://asfour360.github.io/stackjet-photos/countries/ae-tall.jpg",
+    "AS": "https://asfour360.github.io/stackjet-photos/countries/as-tall.jpg",
+    "AQ": "https://asfour360.github.io/stackjet-photos/countries/aq-tall.jpg",
+    "AM": "https://asfour360.github.io/stackjet-photos/countries/am-tall.jpg",
+    "BS": "https://asfour360.github.io/stackjet-photos/countries/bs-tall.jpg",
+    "BT": "https://asfour360.github.io/stackjet-photos/countries/bt-tall.jpg",
+    "KH": "https://asfour360.github.io/stackjet-photos/countries/kh-tall.jpg",
+    "GE": "https://asfour360.github.io/stackjet-photos/countries/ge-tall.jpg",
+    "GL": "https://asfour360.github.io/stackjet-photos/countries/gl-tall.jpg",
+    "GU": "https://asfour360.github.io/stackjet-photos/countries/gu-tall.jpg",
+    "GW": "https://asfour360.github.io/stackjet-photos/countries/gw-tall.jpg",
+    "HK": "https://asfour360.github.io/stackjet-photos/countries/hk-tall.jpg",
+    "MX": "https://asfour360.github.io/stackjet-photos/countries/mx-tall.jpg",
+    "IT": "https://asfour360.github.io/stackjet-photos/countries/it-tall.jpg"
   }
 }
