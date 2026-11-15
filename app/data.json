@@ -2,7 +2,7 @@
   "format": "stackjet-app-data",
   "version": 1,
   "updated": "2026-11-14",
-  "note": "Every section is optional; an empty or missing section leaves that table as built into the app. statusTiers: WestJet, plus Porter, British Airways, Iberia, Aer Lingus and Cathay tiers (2026-11-03). Atmos Rewards four tier names added (2026-11-04). Breeze Rewards tier names added; first-year Breeze Easy Visa status remains conditional (2026-11-04); ALL Accor tiers (2026-11-06). Amex Platinum (Canada) ALL Accor Gold grant, verified on the Amex Canada card page (2026-11-12). tripPhotos: 12 destination country photos, CC0/public domain from Wikimedia Commons, credits in stackjet-photos countries/CREDITS.md (2026-11-13). statusMatchCards: Wyndham Earner Plus to Platinum, Choice Privileges Select added, United Club IHG Platinum, IHG Business and Ritz-Carlton notes (2026-11-14).",
+  "note": "Every section is optional; an empty or missing section leaves that table as built into the app. statusTiers: WestJet, plus Porter, British Airways, Iberia, Aer Lingus and Cathay tiers (2026-11-03). Atmos Rewards four tier names added (2026-11-04). Breeze Rewards tier names added; first-year Breeze Easy Visa status remains conditional (2026-11-04); ALL Accor tiers (2026-11-06). Amex Platinum (Canada) ALL Accor Gold grant, verified on the Amex Canada card page (2026-11-12). tripPhotos: 12 destination country photos, CC0/public domain from Wikimedia Commons, credits in stackjet-photos countries/CREDITS.md (2026-11-13). statusMatchCards: Wyndham Earner Plus to Platinum, Choice Privileges Select added, United Club IHG Platinum, IHG Business and Ritz-Carlton notes (2026-11-14). statusMatchCards: aliases so the four Barclays Wyndham Earner cards and the Wells Fargo Choice Privileges card match their wallet names (2026-11-14).",
   "transferPartners": {
     "citi-us": [
       {
@@ -1103,6 +1103,9 @@
           "rank": 1,
           "tier": "Wyndham Gold"
         }
+      ],
+      "aliases": [
+        "Barclays Wyndham Rewards Earner"
       ]
     },
     {
@@ -1114,6 +1117,9 @@
           "tier": "Wyndham Platinum",
           "note": "Diamond in year 1, then Platinum."
         }
+      ],
+      "aliases": [
+        "Barclays Wyndham Rewards Earner Plus"
       ]
     },
     {
@@ -1124,6 +1130,9 @@
           "rank": 3,
           "tier": "Wyndham Diamond"
         }
+      ],
+      "aliases": [
+        "Barclays Wyndham Rewards Earner Premier"
       ]
     },
     {
@@ -1134,6 +1143,9 @@
           "rank": 3,
           "tier": "Wyndham Diamond"
         }
+      ],
+      "aliases": [
+        "Barclays Wyndham Rewards Earner Business"
       ]
     },
     {
@@ -1144,6 +1156,9 @@
           "rank": 1,
           "tier": "Choice Privileges Gold"
         }
+      ],
+      "aliases": [
+        "Wells Fargo Choice Privileges"
       ]
     },
     {
