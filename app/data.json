@@ -2,7 +2,7 @@
   "format": "stackjet-app-data",
   "version": 1,
   "updated": "2026-11-15",
-  "note": "Every section is optional; an empty or missing section leaves that table as built into the app. statusTiers: WestJet, plus Porter, British Airways, Iberia, Aer Lingus and Cathay tiers (2026-11-03). Atmos Rewards four tier names added (2026-11-04). Breeze Rewards tier names added; first-year Breeze Easy Visa status remains conditional (2026-11-04); ALL Accor tiers (2026-11-06). Amex Platinum (Canada) ALL Accor Gold grant, verified on the Amex Canada card page (2026-11-12). tripPhotos: 12 destination country photos, CC0/public domain from Wikimedia Commons, credits in stackjet-photos countries/CREDITS.md (2026-11-13). statusMatchCards: Wyndham Earner Plus to Platinum, Choice Privileges Select added, United Club IHG Platinum, IHG Business and Ritz-Carlton notes (2026-11-14). statusMatchCards: aliases so the four Barclays Wyndham Earner cards and the Wells Fargo Choice Privileges card match their wallet names (2026-11-14). tripPhotos: 11 more destination country photos (AS AQ AM BS BT KH GE GL GU GW HK) and tall crops for MX and IT, credits in stackjet-photos countries/CREDITS.md (2026-11-15). referralLinks: the four American Express links now cover their whole card family in the same country: US Platinum/Gold/Green personal and business, Canadian Platinum/Gold/Green and Cobalt, US Hilton Honors, US Delta SkyMiles (2026-11-15).",
+  "note": "Every section is optional; an empty or missing section leaves that table as built into the app. statusTiers: WestJet, plus Porter, British Airways, Iberia, Aer Lingus and Cathay tiers (2026-11-03). Atmos Rewards four tier names added (2026-11-04). Breeze Rewards tier names added; first-year Breeze Easy Visa status remains conditional (2026-11-04); ALL Accor tiers (2026-11-06). Amex Platinum (Canada) ALL Accor Gold grant, verified on the Amex Canada card page (2026-11-12). tripPhotos: 12 destination country photos, CC0/public domain from Wikimedia Commons, credits in stackjet-photos countries/CREDITS.md (2026-11-13). statusMatchCards: Wyndham Earner Plus to Platinum, Choice Privileges Select added, United Club IHG Platinum, IHG Business and Ritz-Carlton notes (2026-11-14). statusMatchCards: aliases so the four Barclays Wyndham Earner cards and the Wells Fargo Choice Privileges card match their wallet names (2026-11-14). tripPhotos: 11 more destination country photos (AS AQ AM BS BT KH GE GL GU GW HK) and tall crops for MX and IT, credits in stackjet-photos countries/CREDITS.md (2026-11-15). referralLinks: the four American Express links now cover their whole card family in the same country: US Platinum/Gold/Green personal and business, Canadian Platinum/Gold/Green and Cobalt, US Hilton Honors, US Delta SkyMiles (2026-11-15). loungeNetworkPartners: partner airlines whose same-day flight opens an airline's own lounge for a pass or card holder, from each airline's access page and oneworld.com (2026-11-15).",
   "transferPartners": {
     "citi-us": [
       {
@@ -824,6 +824,94 @@
       "link": true,
       "detail": "Aeroplan 75K and Super Elite. Enroll once with the Aeroplan form (free); it lasts while you keep your Elite Status.",
       "url": "https://www.aircanada.com/ca/en/aco/home/aeroplan/partners/avis.html"
+    }
+  ],
+  "loungeNetworkPartners": [
+    {
+      "network": "Admirals Club",
+      "airlines": [
+        "AA",
+        "AS",
+        "AT",
+        "AY",
+        "BA",
+        "CX",
+        "FJ",
+        "IB",
+        "JL",
+        "MH",
+        "QF",
+        "QR",
+        "RJ",
+        "UL",
+        "WY"
+      ],
+      "detail": "One-Day Pass and Citi / AAdvantage Executive card: a same-day flight marketed or operated by American, or marketed and operated by a oneworld airline (oneworld member list of 2026-11-15). Members also get in on Aer Lingus, which is left out here.",
+      "url": "https://www.aa.com/i18n/travel-info/clubs/admirals-club-access.html"
+    },
+    {
+      "network": "Delta Sky Club",
+      "airlines": [
+        "DL"
+      ],
+      "detail": "Card access (Amex Platinum, Delta Reserve) needs a same-day Delta-operated or Delta-marketed flight; partner airlines count only for paid members, so only Delta is listed (2026-11-15).",
+      "url": "https://www.delta.com/us/en/delta-sky-club/access"
+    },
+    {
+      "network": "United Club",
+      "airlines": [
+        "UA"
+      ],
+      "detail": "Only United is listed: the partner rule could not be read on United's own page on 2026-11-15.",
+      "url": "https://www.united.com/UnitedClubRules"
+    },
+    {
+      "network": "Air Canada Maple Leaf Lounge",
+      "airlines": [
+        "AC",
+        "QK",
+        "RV"
+      ],
+      "detail": "One-time guest passes and Aeroplan business cards need an Air Canada, Air Canada Rouge or Air Canada Express flight; only some premium cards also admit Star Alliance flights, so only Air Canada is listed (2026-11-15).",
+      "url": "https://www.aircanada.com/lounges-termsandconditions"
+    },
+    {
+      "network": "Alaska Lounge",
+      "airlines": [
+        "AA",
+        "AS",
+        "AT",
+        "AY",
+        "BA",
+        "CX",
+        "FJ",
+        "IB",
+        "JL",
+        "MH",
+        "QF",
+        "QR",
+        "RJ",
+        "UL",
+        "WY"
+      ],
+      "detail": "Members and pass holders: a same-day flight on Alaska or a oneworld airline (oneworld member list of 2026-11-15). Hawaiian is left out because the single-entry pass rule does not name it.",
+      "url": "https://www.alaskaair.com/content/airport-lounge/policies-and-rules"
+    },
+    {
+      "network": "Qantas Club",
+      "airlines": [
+        "QF"
+      ],
+      "detail": "Members get in with a same-day Qantas or Jetstar flight number; the rule for lounge invitations and passes was not confirmed, so only Qantas is listed (2026-11-15).",
+      "url": "https://www.qantas.com/loungeaccess"
+    },
+    {
+      "network": "ANA Lounges",
+      "airlines": [
+        "NH"
+      ],
+      "detail": "ANA status members also get in on Star Alliance flights, with conditions that vary by airline and route; that is a status rule, so only ANA is listed (2026-11-15).",
+      "url": "https://www.ana.co.jp/en/ca/amc/premium-members/benefits/lounge-access"
     }
   ],
   "statusMatchCards": [
