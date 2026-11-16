@@ -28,6 +28,11 @@
       "airport": "YUL",
       "provider": "American Express",
       "name": "American Express and Aspire Pre-Flight Hospitality Expand Aspire Lounge Partnership in Canada"
+    },
+    {
+      "airport": "ONT",
+      "provider": "Priority Pass",
+      "name": "Aspire Lounge"
     }
   ],
   "change": [
@@ -8159,6 +8164,182 @@
       "photoURLs": [
         "https://asfour360.github.io/stackjet-photos/aircanada/shared/air-canada-maple-leaf-lounge-entrance-1.jpg"
       ]
+    },
+    {
+      "airport": "YYC",
+      "provider": "Priority Pass",
+      "name": "Aspire Lounge (Domestic)",
+      "location": "After security, near Gate A21; turn right after central security. Domestic flights only.",
+      "description": "Aspire's domestic lounge in Calgary's Concourse A (also the Aspire Amex Lounge), with buffet food and workspaces.",
+      "restrictions": [
+        "Stay up to 3 hours."
+      ],
+      "newName": "Aspire Amex Lounge"
+    },
+    {
+      "airport": "YYC",
+      "provider": "Priority Pass",
+      "name": "Aspire Lounge International Departures",
+      "description": "Aspire's lounge for international departures from Concourse D, with sleeping pods, phone booths and paid showers.",
+      "amenities": [
+        "Air conditioning",
+        "Alcoholic drinks (Standard)",
+        "Digital card accepted",
+        "Disabled access",
+        "Flight information",
+        "Newspapers / magazines",
+        "Phone booths",
+        "Showers — extra charge",
+        "Sleeping pods",
+        "Soft drinks",
+        "Televisions",
+        "Wi-Fi"
+      ]
+    },
+    {
+      "airport": "YYC",
+      "provider": "Priority Pass",
+      "name": "Aspire Lounge Transborder Departures",
+      "description": "Aspire's lounge, shared with the WestJet Garden, for U.S. departures from Concourse E, with sleeping pods and phone booths.",
+      "amenities": [
+        "Air conditioning",
+        "Alcoholic drinks (Standard)",
+        "Conference facilities",
+        "Digital card accepted",
+        "Disabled access",
+        "Flight information",
+        "Newspapers / magazines",
+        "Phone booths",
+        "Showers — extra charge",
+        "Sleeping pods",
+        "Soft drinks",
+        "Televisions",
+        "Wi-Fi"
+      ]
+    },
+    {
+      "airport": "YUL",
+      "provider": "Priority Pass",
+      "name": "Aspire Domestic Lounge - YUL",
+      "hours": [
+        "05:00 - 21:00"
+      ],
+      "description": "Aspire's domestic lounge in Montréal (also the Aspire Amex Lounge), with tableside dining, booths and runway views.",
+      "amenities": [
+        "Air conditioning",
+        "Alcoholic drinks (Standard)",
+        "Alcoholic drinks (Premium-brand) — extra charge",
+        "Digital card accepted",
+        "Disabled access",
+        "Flight information",
+        "Newspapers / magazines",
+        "Phone booth",
+        "Private booths",
+        "Runway views",
+        "Soft drinks",
+        "Televisions",
+        "Wi-Fi",
+        "Workstations"
+      ],
+      "newName": "Aspire Amex Lounge"
+    },
+    {
+      "airport": "YUL",
+      "provider": "Priority Pass",
+      "name": "Montreal Aspire International Lounge",
+      "location": "Airside - Level 2, after security A and international control, near Gate 52; reception is behind UBAR. International flights only.",
+      "description": "Aspire's international lounge near Gate 52, called the National Bank Lounge on Aspire's own site, with buffet and runway views.",
+      "amenities": [
+        "Air conditioning",
+        "Buffet",
+        "Digital card accepted",
+        "Disabled access",
+        "Flight information",
+        "Newspapers / magazines",
+        "Runway views",
+        "Soft drinks",
+        "Televisions",
+        "Wi-Fi"
+      ],
+      "restrictions": [
+        "Access is permitted 3 hours prior to scheduled flight departure - Children under 2 years are admitted free - Smart casual dress at all times.",
+        "Aspire's site lists a 2-hour maximum stay. Restrooms are outside the lounge."
+      ]
+    },
+    {
+      "airport": "YOW",
+      "provider": "Priority Pass",
+      "name": "Aspire Salon Lounge",
+      "description": "Aspire's lounge just past Gate 18, with a buffet, bar, business centre and runway views.",
+      "amenities": [
+        "Air conditioning",
+        "Bar",
+        "Buffet",
+        "Business centre",
+        "Conference facilities — extra charge",
+        "Digital card accepted",
+        "Disabled access",
+        "Flight information",
+        "Luggage storage",
+        "Printers — extra charge",
+        "Private restrooms",
+        "Runway views",
+        "Soft drinks",
+        "Televisions",
+        "Wi-Fi"
+      ],
+      "restrictions": [
+        "Access is permitted 3 hours prior to scheduled flight departure - All Cardholders and guests are required to show an Outbound Boarding Pass with confirmed same-day travel - Children under 2 years are admitted free - All children must be accompanied by an adult.",
+        "Complimentary luggage storage available inside the lounge. Conference facilities and printers are subject to payment.",
+        "Stay up to 3 hours."
+      ]
+    },
+    {
+      "airport": "YTZ",
+      "provider": "Priority Pass",
+      "name": "Aspire Lounge",
+      "hours": [
+        "06:00 - 21:00"
+      ],
+      "description": "Aspire's Air Canada Café lounge in the domestic terminal, with plated meals, a bar and a small meeting room.",
+      "amenities": [
+        "Air conditioning",
+        "Alcoholic drinks (Standard)",
+        "Bar",
+        "Digital card accepted",
+        "Meeting room (six people)",
+        "Plated meals",
+        "Wi-Fi",
+        "Workstation"
+      ],
+      "restrictions": [
+        "Access is permitted 3 hours prior to scheduled flight departure.",
+        "Children under 2 years are admitted free.",
+        "Stay up to 3 hours. Restrooms are just outside, next to reception."
+      ],
+      "photoURLs": []
+    },
+    {
+      "airport": "SAN",
+      "provider": "Priority Pass",
+      "name": "Aspire Lounge",
+      "description": "Aspire's Terminal 2 lounge past the East security checkpoint, with food, business facilities and runway views.",
+      "amenities": [
+        "A la carte menu — extra charge",
+        "Air conditioning",
+        "Alcoholic drinks (Standard)",
+        "Alcoholic drinks (Premium-brand) — extra charge",
+        "Business facilities",
+        "Digital card accepted",
+        "Disabled access",
+        "Flight information",
+        "Private restrooms",
+        "Runway views",
+        "Showers — extra charge",
+        "Soft drinks",
+        "Televisions",
+        "Wi-Fi"
+      ]
     }
   ],
   "add": [
@@ -8594,24 +8775,67 @@
       "provider": "American Express",
       "name": "Aspire Amex Lounge",
       "officialURL": "https://www.americanexpress.com/en-us/newsroom/global-news/american-express-and-aspire-pre-flight-hospitality-expand-aspire/",
-      "description": "Co-branded American Express and Aspire lounge for domestic flights from Calgary. Buffet dining plus tableside ordering.",
-      "terminal": "Domestic departures",
-      "location": "Domestic departures, past security",
-      "hours": [],
+      "description": "Aspire's co-branded Amex lounge for domestic departures in Calgary, with food, workspaces and a fireplace.",
+      "terminal": "Domestic / Concourse A",
+      "location": "After security, near Gate A21; turn right after central security.",
+      "hours": [
+        "Daily: 05:00 - 22:00"
+      ],
       "amenities": [
-        "Buffet dining",
-        "Tableside ordering",
         "Wi-Fi",
-        "Power outlets"
+        "Charging",
+        "Workspaces",
+        "Food and drinks",
+        "Flight displays",
+        "Private restrooms",
+        "Fireplace"
       ],
       "restrictions": [
-        "Eligible American Express Cardmembers get complimentary entry, plus priority lounge and waitlist access; at Aspire's Montréal Amex lounge the eligible cards are the Platinum Card, Business Platinum Card and Centurion Card issued in Canada. Check your card's lounge terms.",
-        "Same-day departure on a domestic flight from Calgary.",
-        "Guest rules follow your card's lounge benefit; the lounge also admits other travellers on a space-available basis.",
-        "Hours not published yet: check hours with Aspire."
+        "Canadian-issued American Express Platinum, Business Platinum and Centurion cards get complimentary priority entry. Priority Pass and DragonPass members are also accepted, as are other travellers who book or pay, subject to space.",
+        "Domestic Canada flights only.",
+        "Stay up to 3 hours. Bring a boarding pass; extra guests need program credits or payment. Check your card's lounge terms."
       ],
       "photoURLs": [
         "https://asfour360.github.io/stackjet-photos/amex/yyc/aspire-amex-lounge-yyc-domestic-1.jpg"
+      ]
+    },
+    {
+      "airportCode": "YUL",
+      "provider": "American Express",
+      "name": "Aspire Amex Lounge",
+      "officialURL": "https://www.americanexpress.com/en-us/newsroom/global-news/american-express-and-aspire-pre-flight-hospitality-expand-aspire/",
+      "description": "Aspire's domestic Amex lounge in Montréal, with tableside dining, private booths and runway views.",
+      "terminal": "Domestic",
+      "location": "After security between Gates 1 and 2, behind Starbucks and opposite YUL Pizza.",
+      "hours": [
+        "Daily: 05:00 - 21:00"
+      ],
+      "amenities": [
+        "Wi-Fi",
+        "Charging",
+        "Workstations",
+        "Private booths",
+        "Phone booth",
+        "Tableside dining",
+        "Grab and Go",
+        "Runway views"
+      ],
+      "restrictions": [
+        "Canadian-issued American Express Platinum, Business Platinum and Centurion cards get complimentary priority entry. Priority Pass and DragonPass members are also accepted, as are other travellers who book or pay, subject to space.",
+        "Domestic flights only.",
+        "Stay up to 3 hours. Bring a boarding pass; extra guests need program credits or payment. Check your card's lounge terms."
+      ],
+      "photoURLs": [
+        "https://images.ctfassets.net/687qsr16btly/n2BJRV9NDmFkgxG5f3csY/ef7c3d57fc1e618bd27bc265c2753647/main_image.jpg",
+        "https://images.ctfassets.net/687qsr16btly/6nCW8lnJ5c9xrU7kJLu10G/21869617bbd21bee1bfe513adc3fefda/image_1.jpg",
+        "https://images.ctfassets.net/687qsr16btly/2M5quYgnarOa4FhbifnuJy/7003f256f290ac73036a5760a7fd6ce9/image_2.jpg",
+        "https://images.ctfassets.net/687qsr16btly/7vx8cNFV6Lf3DKUDgXKrxs/149d3c93d6ccd608893927c58889654d/image_3.jpg",
+        "https://images.ctfassets.net/687qsr16btly/430CMmKaCmzV28UQvbxhuT/0fd5cee1b7d731f42385dd3f06741ca0/image_4.jpg",
+        "https://images.ctfassets.net/687qsr16btly/lTHr9X2zaQrajKeotzcVD/b20fbfe5f89a36be5bca07351684ffa9/image_5.jpg",
+        "https://images.ctfassets.net/687qsr16btly/hOQElwjZMOiQQ5HjUmHVN/027c3620993c4bcc737ef061e7d11b12/image_6.jpg",
+        "https://images.ctfassets.net/687qsr16btly/40EaJPJ0mKzZiR37MAr3K9/6631c92032e449f00fb808dc60558cee/image_7.jpg",
+        "https://images.ctfassets.net/687qsr16btly/3UNBDqBbsFZdovCYI9Ny7v/2c8f9e7c5aeb5c19b9444cb8a462b865/image_8.jpg",
+        "https://images.ctfassets.net/687qsr16btly/4mkQw8vTeWkcgtLjf1MtGm/2cd01ac96265dfccbdc883441130734b/image_9.jpg"
       ]
     },
     {
@@ -8633,8 +8857,59 @@
         "Coming Soon — not yet open or accessible (expected by early 2027).",
         "When open, eligible American Express Cardmembers get priority lounge and waitlist access, for travellers departing Montréal for the U.S.; check your card's lounge terms."
       ],
+      "photoURLs": []
+    },
+    {
+      "airportCode": "ONT",
+      "provider": "Priority Pass",
+      "name": "Aspire Executive Lounge Terminal 2",
+      "officialURL": "https://www.prioritypass.com/en-GB/lounges/united-states-of-america/ontario-international/ont-aspire-lounge",
+      "description": "Aspire's lounge in Terminal 2, for domestic departures.",
+      "terminal": "Terminal 2",
+      "location": "After security, turn left toward Gates 210-213. Domestic flights only.",
+      "hours": [
+        "Daily: 05:00 - 00:00"
+      ],
+      "amenities": [
+        "Wi-Fi",
+        "Charging",
+        "Food and drinks",
+        "Flight displays",
+        "Restrooms",
+        "Baby changing"
+      ],
+      "restrictions": [
+        "Priority Pass and DragonPass accepted; Priority Pass entitlement and issuer-specific exclusions apply.",
+        "Stay up to 3 hours. Same-day boarding pass required; guests need credits or payment."
+      ],
+      "photoURLs": []
+    },
+    {
+      "airportCode": "ONT",
+      "provider": "Priority Pass",
+      "name": "Aspire Executive Lounge Terminal 4",
+      "officialURL": "https://www.prioritypass.com/en-GB/lounges/united-states-of-america/ontario-international/ont1-aspire-lounge",
+      "description": "Aspire's lounge in Terminal 4, with food and drinks and flight displays.",
+      "terminal": "Terminal 4",
+      "location": "After security, turn left toward Gates 411-413.",
+      "hours": [
+        "Mon, Wed, Fri, Sat: 04:00 - 00:00",
+        "Tue, Thu, Sun: 04:00 - 18:00"
+      ],
+      "amenities": [
+        "Wi-Fi",
+        "Charging",
+        "Food and drinks",
+        "Flight displays",
+        "Restrooms",
+        "Baby changing"
+      ],
+      "restrictions": [
+        "Priority Pass and DragonPass accepted; Priority Pass entitlement and issuer-specific exclusions apply.",
+        "Stay up to 3 hours. Same-day boarding pass required; guests need credits or payment."
+      ],
       "photoURLs": [
-        "https://asfour360.github.io/stackjet-photos/amex/yul/aspire-amex-lounge-yul-transborder-coming-soon-1.jpg"
+        "https://images.ctfassets.net/687qsr16btly/1c87ermIgrBzM9r0r87nvF/3103d25e58bd6eab2914194e275927a6/main_image.jpg"
       ]
     }
   ],
