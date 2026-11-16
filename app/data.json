@@ -2,7 +2,7 @@
   "format": "stackjet-app-data",
   "version": 1,
   "updated": "2026-11-15",
-  "note": "Every section is optional; an empty or missing section leaves that table as built into the app. statusTiers: WestJet, plus Porter, British Airways, Iberia, Aer Lingus and Cathay tiers (2026-11-03). Atmos Rewards four tier names added (2026-11-04). Breeze Rewards tier names added; first-year Breeze Easy Visa status remains conditional (2026-11-04); ALL Accor tiers (2026-11-06). Amex Platinum (Canada) ALL Accor Gold grant, verified on the Amex Canada card page (2026-11-12). tripPhotos: 12 destination country photos, CC0/public domain from Wikimedia Commons, credits in stackjet-photos countries/CREDITS.md (2026-11-13). statusMatchCards: Wyndham Earner Plus to Platinum, Choice Privileges Select added, United Club IHG Platinum, IHG Business and Ritz-Carlton notes (2026-11-14). statusMatchCards: aliases so the four Barclays Wyndham Earner cards and the Wells Fargo Choice Privileges card match their wallet names (2026-11-14). tripPhotos: 11 more destination country photos (AS AQ AM BS BT KH GE GL GU GW HK) and tall crops for MX and IT, credits in stackjet-photos countries/CREDITS.md (2026-11-15). referralLinks: the four American Express links now cover their whole card family in the same country: US Platinum/Gold/Green personal and business, Canadian Platinum/Gold/Green and Cobalt, US Hilton Honors, US Delta SkyMiles (2026-11-15). loungeNetworkPartners: partner airlines whose same-day flight opens an airline's own lounge for a pass or card holder, from each airline's access page and oneworld.com (2026-11-15).",
+  "note": "Every section is optional; an empty or missing section leaves that table as built into the app. statusTiers: WestJet, plus Porter, British Airways, Iberia, Aer Lingus and Cathay tiers (2026-11-03). Atmos Rewards four tier names added (2026-11-04). Breeze Rewards tier names added; first-year Breeze Easy Visa status remains conditional (2026-11-04); ALL Accor tiers (2026-11-06). Amex Platinum (Canada) ALL Accor Gold grant, verified on the Amex Canada card page (2026-11-12). tripPhotos: 12 destination country photos, CC0/public domain from Wikimedia Commons, credits in stackjet-photos countries/CREDITS.md (2026-11-13). statusMatchCards: Wyndham Earner Plus to Platinum, Choice Privileges Select added, United Club IHG Platinum, IHG Business and Ritz-Carlton notes (2026-11-14). statusMatchCards: aliases so the four Barclays Wyndham Earner cards and the Wells Fargo Choice Privileges card match their wallet names (2026-11-14). tripPhotos: 11 more destination country photos (AS AQ AM BS BT KH GE GL GU GW HK) and tall crops for MX and IT, credits in stackjet-photos countries/CREDITS.md (2026-11-15). referralLinks: the four American Express links now cover their whole card family in the same country: US Platinum/Gold/Green personal and business, Canadian Platinum/Gold/Green and Cobalt, US Hilton Honors, US Delta SkyMiles (2026-11-15). loungeNetworkPartners: partner airlines whose same-day flight opens an airline's own lounge for a pass or card holder, from each airline's access page and oneworld.com (2026-11-15). airlineTerminals: the terminals each airline departs from at airports with a clear airline split, from each airport's own airline directory; trips use it to show lounges in a flight's terminal when the flight has no terminal saved (2026-11-15).",
   "transferPartners": {
     "citi-us": [
       {
@@ -912,6 +912,208 @@
       ],
       "detail": "ANA status members also get in on Star Alliance flights, with conditions that vary by airline and route; that is a status rule, so only ANA is listed (2026-11-15).",
       "url": "https://www.ana.co.jp/en/ca/amc/premium-members/benefits/lounge-access"
+    }
+  ],
+  "airlineTerminals": [
+    {
+      "airport": "DTW",
+      "airlines": [
+        "DL",
+        "AF",
+        "AM",
+        "WS"
+      ],
+      "terminals": [
+        "McNamara Terminal",
+        "Concourse A",
+        "Concourses B/C"
+      ],
+      "note": "DTW airline directory: Delta, Air France, Aeromexico, WestJet in the McNamara Terminal (its concourses A, B and C).",
+      "url": "https://www.metroairport.com/flights/airline-directory"
+    },
+    {
+      "airport": "DTW",
+      "airlines": [
+        "AC",
+        "AS",
+        "AA",
+        "F9",
+        "B6",
+        "LH",
+        "RJ",
+        "WN",
+        "SY",
+        "TK",
+        "UA",
+        "Y4"
+      ],
+      "terminals": [
+        "Warren C. Evans Terminal"
+      ],
+      "note": "DTW airline directory: these airlines use the Evans Terminal.",
+      "url": "https://www.metroairport.com/flights/airline-directory"
+    },
+    {
+      "airport": "LGA",
+      "airlines": [
+        "DL"
+      ],
+      "terminals": [
+        "Terminal C"
+      ],
+      "note": "LaGuardia airline list: Delta in Terminal C.",
+      "url": "https://www.laguardiaairport.com/flights/airlines"
+    },
+    {
+      "airport": "LGA",
+      "airlines": [
+        "AC",
+        "AA",
+        "F9",
+        "B6",
+        "PD",
+        "WN",
+        "UA"
+      ],
+      "terminals": [
+        "Terminal B"
+      ],
+      "note": "LaGuardia airline list: these airlines in Terminal B.",
+      "url": "https://www.laguardiaairport.com/flights/airlines"
+    },
+    {
+      "airport": "EWR",
+      "airlines": [
+        "AC",
+        "AA",
+        "DL",
+        "B6"
+      ],
+      "terminals": [
+        "Terminal A"
+      ],
+      "note": "Newark airline list: these airlines depart from Terminal A.",
+      "url": "https://www.newarkairport.com/flights/airlines"
+    },
+    {
+      "airport": "EWR",
+      "airlines": [
+        "UA"
+      ],
+      "terminals": [
+        "Terminal A",
+        "Terminal C"
+      ],
+      "note": "Newark airline list: United departs from Terminals A and C (B is arrivals only).",
+      "url": "https://www.newarkairport.com/flights/airlines"
+    },
+    {
+      "airport": "JFK",
+      "airlines": [
+        "DL",
+        "KL",
+        "VS",
+        "WS",
+        "AI"
+      ],
+      "terminals": [
+        "Terminal 4"
+      ],
+      "note": "JFK airline list: these airlines in Terminal 4.",
+      "url": "https://www.jfkairport.com/flights/airlines"
+    },
+    {
+      "airport": "JFK",
+      "airlines": [
+        "AA",
+        "AS",
+        "BA",
+        "JL",
+        "QF"
+      ],
+      "terminals": [
+        "Terminal 8"
+      ],
+      "note": "JFK airline list: these airlines in Terminal 8.",
+      "url": "https://www.jfkairport.com/flights/airlines"
+    },
+    {
+      "airport": "JFK",
+      "airlines": [
+        "AF",
+        "KE"
+      ],
+      "terminals": [
+        "Terminal 1"
+      ],
+      "note": "JFK airline list: these airlines in Terminal 1.",
+      "url": "https://www.jfkairport.com/flights/airlines"
+    },
+    {
+      "airport": "JFK",
+      "airlines": [
+        "B6"
+      ],
+      "terminals": [
+        "Terminal 5",
+        "Terminal 4"
+      ],
+      "note": "JFK airline list: JetBlue uses Terminals 5 and 4.",
+      "url": "https://www.jfkairport.com/flights/airlines"
+    },
+    {
+      "airport": "PHX",
+      "airlines": [
+        "DL",
+        "UA",
+        "AS",
+        "AC"
+      ],
+      "terminals": [
+        "Terminal 3"
+      ],
+      "note": "Sky Harbor airline list: these airlines in Terminal 3.",
+      "url": "https://www.skyharbor.com/flights/passenger-airlines/"
+    },
+    {
+      "airport": "PHX",
+      "airlines": [
+        "WN",
+        "WS"
+      ],
+      "terminals": [
+        "Terminal 4"
+      ],
+      "note": "Sky Harbor airline list: these airlines in Terminal 4.",
+      "url": "https://www.skyharbor.com/flights/passenger-airlines/"
+    },
+    {
+      "airport": "YYZ",
+      "airlines": [
+        "AC",
+        "UA"
+      ],
+      "terminals": [
+        "Terminal 1"
+      ],
+      "note": "Toronto Pearson airline list: Air Canada and United in Terminal 1.",
+      "url": "https://www.torontopearson.com/en/airlines"
+    },
+    {
+      "airport": "YYZ",
+      "airlines": [
+        "DL",
+        "AA",
+        "AS",
+        "AF",
+        "KL",
+        "WS"
+      ],
+      "terminals": [
+        "Terminal 3"
+      ],
+      "note": "Toronto Pearson airline list: these airlines in Terminal 3.",
+      "url": "https://www.torontopearson.com/en/airlines"
     }
   ],
   "statusMatchCards": [
