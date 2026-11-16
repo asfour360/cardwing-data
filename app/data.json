@@ -2,7 +2,7 @@
   "format": "stackjet-app-data",
   "version": 1,
   "updated": "2026-11-15",
-  "note": "Every section is optional; an empty or missing section leaves that table as built into the app. statusTiers: WestJet, plus Porter, British Airways, Iberia, Aer Lingus and Cathay tiers (2026-11-03). Atmos Rewards four tier names added (2026-11-04). Breeze Rewards tier names added; first-year Breeze Easy Visa status remains conditional (2026-11-04); ALL Accor tiers (2026-11-06). Amex Platinum (Canada) ALL Accor Gold grant, verified on the Amex Canada card page (2026-11-12). tripPhotos: 12 destination country photos, CC0/public domain from Wikimedia Commons, credits in stackjet-photos countries/CREDITS.md (2026-11-13). statusMatchCards: Wyndham Earner Plus to Platinum, Choice Privileges Select added, United Club IHG Platinum, IHG Business and Ritz-Carlton notes (2026-11-14). statusMatchCards: aliases so the four Barclays Wyndham Earner cards and the Wells Fargo Choice Privileges card match their wallet names (2026-11-14). tripPhotos: 11 more destination country photos (AS AQ AM BS BT KH GE GL GU GW HK) and tall crops for MX and IT, credits in stackjet-photos countries/CREDITS.md (2026-11-15). referralLinks: the four American Express links now cover their whole card family in the same country: US Platinum/Gold/Green personal and business, Canadian Platinum/Gold/Green and Cobalt, US Hilton Honors, US Delta SkyMiles (2026-11-15). loungeNetworkPartners: partner airlines whose same-day flight opens an airline's own lounge for a pass or card holder, from each airline's access page and oneworld.com (2026-11-15). airlineTerminals: the terminals each airline departs from at airports with a clear airline split, from each airport's own airline directory; trips use it to show lounges in a flight's terminal when the flight has no terminal saved (2026-11-15).",
+  "note": "Every section is optional; an empty or missing section leaves that table as built into the app. statusTiers: WestJet, plus Porter, British Airways, Iberia, Aer Lingus and Cathay tiers (2026-11-03). Atmos Rewards four tier names added (2026-11-04). Breeze Rewards tier names added; first-year Breeze Easy Visa status remains conditional (2026-11-04); ALL Accor tiers (2026-11-06). Amex Platinum (Canada) ALL Accor Gold grant, verified on the Amex Canada card page (2026-11-12). tripPhotos: 12 destination country photos, CC0/public domain from Wikimedia Commons, credits in stackjet-photos countries/CREDITS.md (2026-11-13). statusMatchCards: Wyndham Earner Plus to Platinum, Choice Privileges Select added, United Club IHG Platinum, IHG Business and Ritz-Carlton notes (2026-11-14). statusMatchCards: aliases so the four Barclays Wyndham Earner cards and the Wells Fargo Choice Privileges card match their wallet names (2026-11-14). tripPhotos: 11 more destination country photos (AS AQ AM BS BT KH GE GL GU GW HK) and tall crops for MX and IT, credits in stackjet-photos countries/CREDITS.md (2026-11-15). referralLinks: the four American Express links now cover their whole card family in the same country: US Platinum/Gold/Green personal and business, Canadian Platinum/Gold/Green and Cobalt, US Hilton Honors, US Delta SkyMiles (2026-11-15). loungeNetworkPartners: partner airlines whose same-day flight opens an airline's own lounge for a pass or card holder, from each airline's access page and oneworld.com (2026-11-15). airlineTerminals: the terminals each airline departs from at airports with a clear airline split (DTW, LGA, EWR, JFK, PHX, YYZ, MSP, MIA, PHL), from each airport's own airline directory; \"*\" stands for every other airline at that airport (DTW: Evans Terminal); trips use it to show lounges in a flight's terminal when the flight has no terminal saved (2026-11-15).",
   "transferPartners": {
     "citi-us": [
       {
@@ -954,6 +954,17 @@
       "url": "https://www.metroairport.com/flights/airline-directory"
     },
     {
+      "airport": "DTW",
+      "airlines": [
+        "*"
+      ],
+      "terminals": [
+        "Warren C. Evans Terminal"
+      ],
+      "note": "DTW airline directory: every airline not in the McNamara row uses the Evans Terminal (only Delta, Air France, Aeromexico and WestJet are listed in McNamara).",
+      "url": "https://www.metroairport.com/flights/airline-directory"
+    },
+    {
       "airport": "LGA",
       "airlines": [
         "DL"
@@ -1114,6 +1125,104 @@
       ],
       "note": "Toronto Pearson airline list: these airlines in Terminal 3.",
       "url": "https://www.torontopearson.com/en/airlines"
+    },
+    {
+      "airport": "MSP",
+      "airlines": [
+        "DL"
+      ],
+      "terminals": [
+        "Terminal 1",
+        "Concourse C",
+        "Concourse F/G",
+        "Concourse G"
+      ],
+      "note": "MSP airline list: Delta in Terminal 1, Concourses A, B, C, D, F and G (the lounge list names C, F/G and G).",
+      "url": "https://www.mspairport.com/flights-and-airlines"
+    },
+    {
+      "airport": "MSP",
+      "airlines": [
+        "AC",
+        "AS",
+        "AA",
+        "UA"
+      ],
+      "terminals": [
+        "Terminal 1",
+        "Concourse E"
+      ],
+      "note": "MSP airline list: these airlines in Terminal 1, Concourse E.",
+      "url": "https://www.mspairport.com/flights-and-airlines"
+    },
+    {
+      "airport": "MSP",
+      "airlines": [
+        "AF",
+        "KL"
+      ],
+      "terminals": [
+        "Terminal 1",
+        "Concourse G",
+        "Concourse F/G"
+      ],
+      "note": "MSP airline list: Air France and KLM in Terminal 1, Concourse G.",
+      "url": "https://www.mspairport.com/flights-and-airlines"
+    },
+    {
+      "airport": "MSP",
+      "airlines": [
+        "WS"
+      ],
+      "terminals": [
+        "Terminal 1",
+        "Concourse C"
+      ],
+      "note": "MSP airline list: WestJet in Terminal 1, Concourse C.",
+      "url": "https://www.mspairport.com/flights-and-airlines"
+    },
+    {
+      "airport": "MIA",
+      "airlines": [
+        "AA"
+      ],
+      "terminals": [
+        "Concourse D Gate D15",
+        "Concourse D Gate D30",
+        "Concourse D, near gate D30",
+        "North Terminal, Concourse D",
+        "North Terminal Concourse D and E"
+      ],
+      "note": "MIA airline directory: American departs from Concourses D and E (North Terminal).",
+      "url": "https://www.miami-airport.com/airline-information.asp"
+    },
+    {
+      "airport": "MIA",
+      "airlines": [
+        "DL"
+      ],
+      "terminals": [
+        "South Terminal",
+        "South Terminal Concourse H and J"
+      ],
+      "note": "MIA airline directory: Delta departs from Concourse H (South Terminal).",
+      "url": "https://www.miami-airport.com/airline-information.asp"
+    },
+    {
+      "airport": "PHL",
+      "airlines": [
+        "DL",
+        "UA",
+        "AC",
+        "AS"
+      ],
+      "terminals": [
+        "Terminal D/E",
+        "Terminal D/E Connector",
+        "C/D Connector"
+      ],
+      "note": "PHL airline list: Delta, United, Air Canada and Alaska (gates) in Terminal D; the lounge list places D's clubs at D/E and the C/D connector.",
+      "url": "https://www.phl.org/about/airlines"
     }
   ],
   "statusMatchCards": [
