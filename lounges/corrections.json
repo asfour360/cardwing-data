@@ -8882,7 +8882,11 @@
         "Priority Pass and DragonPass accepted; Priority Pass entitlement and issuer-specific exclusions apply.",
         "Stay up to 3 hours. Same-day boarding pass required; guests need credits or payment."
       ],
-      "photoURLs": []
+      "photoURLs": [
+        "https://asfour360.github.io/stackjet-photos/aspire/ont/aspire-executive-lounge-terminal-2-ont-1.jpg",
+        "https://asfour360.github.io/stackjet-photos/aspire/ont/aspire-executive-lounge-terminal-2-ont-2.jpg",
+        "https://asfour360.github.io/stackjet-photos/aspire/ont/aspire-executive-lounge-terminal-2-ont-3.jpg"
+      ]
     },
     {
       "airportCode": "ONT",
