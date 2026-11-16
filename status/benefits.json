@@ -1,8 +1,8 @@
 {
   "format": "stackjet-status-benefits",
   "version": 1,
-  "updated": "2026-11-07",
-  "note": "Airline tier benefits updated 2026-11-04: British Airways Club, Iberia Club, AerClub, VIPorter, Cathay and Breezy Rewards, alongside earlier programs. Source details reflect 2026 rules. Airline ladder refresh checked 2026-11-05 against official program pages. Tiers with Jan 2027 effective dates are labeled in qualification text; preserving current-year rules where changes are pending. Hotel status details refreshed 2026-11-05: added base tiers and complete public progressions for ALL Accor, One Key, Leaders Club, and Omni Select Guest.",
+  "updated": "2026-11-16",
+  "note": "Airline tier benefits updated 2026-11-04: British Airways Club, Iberia Club, AerClub, VIPorter, Cathay and Breezy Rewards, alongside earlier programs. Source details reflect 2026 rules. Airline ladder refresh checked 2026-11-05 against official program pages. Tiers with Jan 2027 effective dates are labeled in qualification text; preserving current-year rules where changes are pending. Hotel status details refreshed 2026-11-05: added base tiers and complete public progressions for ALL Accor, One Key, Leaders Club, and Omni Select Guest. ALL Accor lounge access clarified against the Accor terms effective 2026-11-16.",
   "programs": {
     "delta": {
       "sourceName": "Delta",
@@ -3008,8 +3008,8 @@
     },
     "accor": {
       "sourceName": "ALL Accor",
-      "sourceURL": "https://all.accor.com/loyalty-program/cards-status-benefits-details/index.en.shtml",
-      "checked": "2026-11-05",
+      "sourceURL": "https://all.accor.com/a/en/loyalty-program/legal/terms-and-conditions.html",
+      "checked": "2026-11-16",
       "note": "Limitless is invitation-only; public criteria and detailed invitation terms are not disclosed.",
       "tiers": [
         {
@@ -3088,13 +3088,13 @@
           "benefits": [
             "76% bonus Reward points (varies by participating brand)",
             "Suite Night Upgrade(s)",
-            "Lounge access",
+            "Hotel lounge access for you and guests in your room (hotels with a lounge)",
             "Early check-in and late checkout"
           ],
           "benefitsFR": [
             "76 % de points Reward bonis (varie selon la marque participante)",
             "Surclassement(s) Suite Night",
-            "Accès au salon",
+            "Accès au salon de l’hôtel pour vous et les invités de votre chambre (hôtels avec salon)",
             "Arrivée hâtive et départ tardif"
           ],
           "keys": [
@@ -3111,18 +3111,21 @@
           "benefits": [
             "100% bonus Reward points (varies by participating brand)",
             "Complimentary weekend breakfast",
+            "Hotel lounge access; Fairmont Gold Lounge for up to 2 adults and 2 children",
             "Dining & Spa Rewards",
             "Gift Gold status to a person of choice"
           ],
           "benefitsFR": [
             "100 % de points Reward bonis (varie selon la marque participante)",
             "Petit-déjeuner gratuit la fin de semaine",
+            "Accès au salon de l’hôtel; salon Fairmont Gold pour 2 adultes et 2 enfants maximum",
             "Récompenses restauration et spa",
             "Offrir le statut Gold à la personne de son choix"
           ],
           "keys": [
             "earn",
             "lounge.breakfast",
+            "lounge.access",
             "other.coupon",
             "other.gifting"
           ]
