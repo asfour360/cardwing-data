@@ -1,8 +1,8 @@
 {
   "format": "stackjet-status-benefits",
   "version": 1,
-  "updated": "2026-11-16",
-  "note": "Airline tier benefits updated 2026-11-04: British Airways Club, Iberia Club, AerClub, VIPorter, Cathay and Breezy Rewards, alongside earlier programs. Source details reflect 2026 rules. Airline ladder refresh checked 2026-11-05 against official program pages. Tiers with Jan 2027 effective dates are labeled in qualification text; preserving current-year rules where changes are pending. Hotel status details refreshed 2026-11-05: added base tiers and complete public progressions for ALL Accor, One Key, Leaders Club, and Omni Select Guest. ALL Accor lounge access clarified against the Accor terms effective 2026-11-16.",
+  "updated": "2026-11-17",
+  "note": "Airline tier benefits updated 2026-11-04: British Airways Club, Iberia Club, AerClub, VIPorter, Cathay and Breezy Rewards, alongside earlier programs. Source details reflect 2026 rules. Airline ladder refresh checked 2026-11-05 against official program pages. Tiers with Jan 2027 effective dates are labeled in qualification text; preserving current-year rules where changes are pending. Hotel status details refreshed 2026-11-05: added base tiers and complete public progressions for ALL Accor, One Key, Leaders Club, and Omni Select Guest. ALL Accor lounge access clarified against the Accor terms effective 2026-11-16. Bilt status benefits refreshed 2026-11-17 against Bilt's app wording: added free Bilt Home Delivery and the Bilt Collection, Bilt Cash expiry, and the Hyatt 4:3 transfer change from Jan 1, 2027.",
   "programs": {
     "delta": {
       "sourceName": "Delta",
@@ -3446,16 +3446,16 @@
     "bilt": {
       "sourceName": "Bilt Rewards",
       "sourceURL": "https://support.biltrewards.com/hc/en-us/articles/5536520671117-What-are-the-Bilt-status-tiers-",
-      "checked": "2026-11-06",
-      "note": "You get the higher of your points or Fast Track status. Status lasts the rest of the year it's earned, all of the next year and until January 15 after that. Referral, survey and promo bonus points don't count. From January 1, 2027, Bilt Cash hotel credits go from monthly to twice a year (same amount each time); car rental status matches and paying for Home Away From Home with points arrive in 2027. Bilt Cash amounts: support.biltrewards.com (Bilt Cash); BLADE, Virgin Voyages and Flying Blue: bilt.com/terms/status-benefits; 2027 changes: newsroom.biltrewards.com (Oct 27, 2026).",
-      "noteFR": "Vous obtenez le plus élevé de votre statut par points ou par Fast Track. Le statut est valide jusqu'à la fin de l'année où il est obtenu, toute l'année suivante et jusqu'au 15 janvier d'après. Les points de parrainage, de sondage et de promotion ne comptent pas. À compter du 1er janvier 2027, les crédits hôteliers en Bilt Cash passent de mensuels à deux fois par année (même montant chaque fois); les jumelages de statut de location de voitures et le paiement de Home Away From Home avec des points arrivent en 2027. Montants Bilt Cash : support.biltrewards.com (Bilt Cash); BLADE, Virgin Voyages et Flying Blue : bilt.com/terms/status-benefits; changements 2027 : newsroom.biltrewards.com (27 octobre 2026).",
+      "checked": "2026-11-17",
+      "note": "You get the higher of your points or Fast Track status. Status lasts the rest of the year it's earned, all of the next year and until January 15 after that. Referral, survey and promo bonus points don't count. From January 1, 2027, Bilt Cash hotel credits go from monthly to twice a year (same amount each time); car rental status matches and paying for Home Away From Home with points arrive in 2027. Bilt Cash amounts: support.biltrewards.com (Bilt Cash); BLADE, Virgin Voyages and Flying Blue: bilt.com/terms/status-benefits; 2027 changes: newsroom.biltrewards.com (Oct 27, 2026). Bilt Cash now expires at the end of the month 12 months after it is earned, oldest first (cash earned Oct 10, 2026 expires Oct 31, 2027); it used to expire at year-end with up to $100 carried over. Hyatt transfers move from 1:1 to 4:3 on Jan 1, 2027 (announced Oct 1, 2026). Free Bilt Home Delivery and the Bilt Collection are listed at Platinum, the tier shown in Bilt's app; the tier they start at isn't published.",
+      "noteFR": "Vous obtenez le plus élevé de votre statut par points ou par Fast Track. Le statut est valide jusqu'à la fin de l'année où il est obtenu, toute l'année suivante et jusqu'au 15 janvier d'après. Les points de parrainage, de sondage et de promotion ne comptent pas. À compter du 1er janvier 2027, les crédits hôteliers en Bilt Cash passent de mensuels à deux fois par année (même montant chaque fois); les jumelages de statut de location de voitures et le paiement de Home Away From Home avec des points arrivent en 2027. Montants Bilt Cash : support.biltrewards.com (Bilt Cash); BLADE, Virgin Voyages et Flying Blue : bilt.com/terms/status-benefits; changements 2027 : newsroom.biltrewards.com (27 octobre 2026). Le Bilt Cash expire désormais à la fin du mois, 12 mois après son obtention, le plus ancien en premier (le Bilt Cash obtenu le 10 octobre 2026 expire le 31 octobre 2027); il expirait auparavant en fin d'année, avec un report maximal de 100 $. Les transferts vers Hyatt passent de 1:1 à 4:3 le 1er janvier 2027 (annoncé le 1er octobre 2026). La livraison gratuite Bilt Home Delivery et l'accès à la Bilt Collection sont indiqués au niveau Platinum, celui que montre l'appli Bilt; le niveau où ils commencent n'est pas publié.",
       "tiers": [
         {
           "name": "Bilt Blue",
           "qualify": "Every Bilt Rewards member: under 50,000 qualifying points and under $10,000 Fast Track (non-rent) spend in a calendar year.",
           "qualifyFR": "Tous les membres Bilt Rewards : moins de 50 000 points admissibles et moins de 10 000 $ de dépenses Fast Track (hors loyer) dans l'année civile.",
           "benefits": [
-            "1:1 transfers to airline and hotel partners, from 2,000 points",
+            "1:1 transfers to airline and hotel partners, from 2,000 points (Hyatt 4:3 from Jan 1, 2027)",
             "Rent Day transfer bonuses on the 1st of each month",
             "$50 Bilt Cash for every 25,000 points earned toward status",
             "Bilt Cash on Bilt Travel hotels (2+ nights): up to $50 a month; twice a year from Jan 1, 2027",
@@ -3465,7 +3465,7 @@
             "Optional rent reporting to the credit bureaus"
           ],
           "benefitsFR": [
-            "Transferts 1:1 vers les partenaires aériens et hôteliers, à partir de 2 000 points",
+            "Transferts 1:1 vers les partenaires aériens et hôteliers, à partir de 2 000 points (Hyatt 4:3 dès le 1er janvier 2027)",
             "Primes de transfert du Rent Day le 1er de chaque mois",
             "50 $ en Bilt Cash pour chaque tranche de 25 000 points cumulés vers le statut",
             "Bilt Cash sur les hôtels Bilt Travel (2 nuits ou plus) : jusqu'à 50 $ par mois; deux fois par année dès le 1er janvier 2027",
@@ -3522,7 +3522,7 @@
           "qualify": "50,000 qualifying points or $10,000 Fast Track (non-rent) spend in a calendar year.",
           "qualifyFR": "50 000 points admissibles ou 10 000 $ de dépenses Fast Track (hors loyer) dans l'année civile.",
           "benefits": [
-            "1:1 transfers to airline and hotel partners, from 1,000 points",
+            "1:1 transfers to airline and hotel partners, from 1,000 points (Hyatt 4:3 from Jan 1, 2027)",
             "Bigger Rent Day transfer bonuses than Blue",
             "Interest on your points balance, paid monthly in points",
             "Up to 50% bonus points on lease renewals at Bilt Alliance properties",
@@ -3532,7 +3532,7 @@
             "From 2027: SIXT ONE Gold and Hertz Five Star status match"
           ],
           "benefitsFR": [
-            "Transferts 1:1 vers les partenaires aériens et hôteliers, à partir de 1 000 points",
+            "Transferts 1:1 vers les partenaires aériens et hôteliers, à partir de 1 000 points (Hyatt 4:3 dès le 1er janvier 2027)",
             "Primes de transfert du Rent Day plus élevées que Blue",
             "Intérêts sur votre solde de points, versés chaque mois en points",
             "Jusqu'à 50 % de points en prime au renouvellement du bail dans les immeubles de l'Alliance Bilt",
@@ -3564,7 +3564,7 @@
             "BLADE lounge access, even when not flying (2 drinks)",
             "Bilt Travel Concierge for trip planning",
             "Early booking for Rent Day experiences",
-            "Homebuying concierge, with points toward a down payment",
+            "Homeownership concierge, with points toward a down payment",
             "Bilt Cash on Blacklane rides: up to $100 a year"
           ],
           "benefitsFR": [
@@ -3575,7 +3575,7 @@
             "Accès aux salons BLADE, même sans vol (2 consommations)",
             "Service de conciergerie Bilt Travel pour planifier vos voyages",
             "Réservation hâtive des expériences du Rent Day",
-            "Conciergerie d'achat de maison, avec des points pour la mise de fonds",
+            "Conciergerie en accession à la propriété, avec des points pour la mise de fonds",
             "Bilt Cash sur les trajets Blacklane : jusqu'à 100 $ par année"
           ],
           "keys": [
@@ -3621,30 +3621,39 @@
           "qualifyFR": "200 000 points admissibles ou 50 000 $ de dépenses Fast Track (hors loyer) dans l'année civile.",
           "benefits": [
             "Best Rent Day transfer bonuses, plus an extra boost on Bilt Cash buy-ups",
+            "Earn 1,000 Bilt Points for every $10 in Rakuten Cash Back",
             "Flying Blue Gold (SkyTeam Elite Plus) for 12 months after a 10,000-point transfer",
             "From 2027: SIXT ONE Platinum and Hertz President's Circle status match",
-            "One free BLADE flight a year between Manhattan and JFK or Newark",
+            "Complimentary BLADE flight (one Basic fare per qualifying year)",
             "First priority for Rent Day experiences",
-            "Dedicated Platinum member support team",
-            "Bilt Cash on Blacklane rides: up to $150 a year"
+            "Access to Platinum Member Specialist Support",
+            "Bilt Cash on Blacklane rides: up to $150 a year",
+            "Free delivery on all Bilt Home Delivery orders",
+            "Access to the Bilt Collection"
           ],
           "benefitsFR": [
             "Meilleures primes de transfert du Rent Day, plus un supplément sur la bonification en Bilt Cash",
+            "Obtenez 1 000 points Bilt pour chaque tranche de 10 $ en remises Rakuten",
             "Flying Blue Gold (SkyTeam Elite Plus) pendant 12 mois après un transfert de 10 000 points",
             "Dès 2027 : jumelage de statut SIXT ONE Platinum et Hertz President's Circle",
-            "Un vol BLADE gratuit par année entre Manhattan et JFK ou Newark",
+            "Vol BLADE gracieux (un tarif Basic par année admissible)",
             "Priorité absolue pour les expériences du Rent Day",
-            "Équipe de soutien dédiée aux membres Platinum",
-            "Bilt Cash sur les trajets Blacklane : jusqu'à 150 $ par année"
+            "Accès au soutien spécialisé des membres Platinum",
+            "Bilt Cash sur les trajets Blacklane : jusqu'à 150 $ par année",
+            "Livraison gratuite sur toutes les commandes Bilt Home Delivery",
+            "Accès à la Bilt Collection"
           ],
           "keys": [
             "earn.rentday",
+            "earn.rakuten",
             "partners.flyingblue",
             "partners.car",
             "other.bladeflight",
             "other.experiences",
             "other.support",
-            "other.blacklane"
+            "other.blacklane",
+            "other.delivery",
+            "other.collection"
           ],
           "credits": [
             {
