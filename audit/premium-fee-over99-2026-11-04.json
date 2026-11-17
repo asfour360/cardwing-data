@@ -1,8 +1,8 @@
 {
-  "format": "stackjet-premium-card-audit-v1",
+  "format": "cardwing-premium-card-audit-v1",
   "asOf": "2026-11-05",
-  "source": "StackJet ver.1.3 (3).zip / Resources/catalog.json",
-  "inclusion": "annualFeeMinor > 9900 in latest uploaded StackJet 1.3 (3) baseline",
+  "source": "Cardwing ver.1.3 (3).zip / Resources/catalog.json",
+  "inclusion": "annualFeeMinor > 9900 in latest uploaded Cardwing 1.3 (3) baseline",
   "count": 117,
   "notes": [
     "This is a roster and data-gap ledger, not a declaration that every listed card has been fully reviewed.",

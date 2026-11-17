@@ -1,5 +1,5 @@
 {
-  "format": "stackjet-issuer-benefits-audit-v1",
+  "format": "cardwing-issuer-benefits-audit-v1",
   "issuer": "American Express",
   "startedOn": "2026-11-04",
   "finishedOn": "2026-11-05",
@@ -29,7 +29,7 @@
     ]
   },
   "baseline": {
-    "archive": "StackJet ver.1.3 (3).zip",
+    "archive": "Cardwing ver.1.3 (3).zip",
     "catalogVersion": "1.7.71",
     "cards": 306,
     "programs": 96
