@@ -11568,6 +11568,16 @@
       "source": "Priority Pass",
       "sourceURL": "https://www.prioritypass.com/en-GB/lounges/canada/montreal-trudeau-international/yul8-air-france-lounge-montreal",
       "checked": "2026-11-06"
+    },
+    {
+      "airport": "YUL",
+      "provider": "American Express",
+      "name": "Aspire Amex Lounge",
+      "rating": 4.13,
+      "reviewCount": 202,
+      "source": "Priority Pass",
+      "sourceURL": "https://www.prioritypass.com/en-GB/lounges/canada/montreal-trudeau-international/yul9-aspire-domestic-lounge-yul",
+      "checked": "2026-11-06"
     }
   ]
 }
