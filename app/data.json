@@ -1,7 +1,7 @@
 {
   "format": "stackjet-app-data",
   "version": 1,
-  "updated": "2026-11-15",
+  "updated": "2026-11-17",
   "note": "Every section is optional; an empty or missing section leaves that table as built into the app. statusTiers: WestJet, plus Porter, British Airways, Iberia, Aer Lingus and Cathay tiers (2026-11-03). Atmos Rewards four tier names added (2026-11-04). Breeze Rewards tier names added; first-year Breeze Easy Visa status remains conditional (2026-11-04); ALL Accor tiers (2026-11-06). Amex Platinum (Canada) ALL Accor Gold grant, verified on the Amex Canada card page (2026-11-12). tripPhotos: 12 destination country photos, CC0/public domain from Wikimedia Commons, credits in stackjet-photos countries/CREDITS.md (2026-11-13). statusMatchCards: Wyndham Earner Plus to Platinum, Choice Privileges Select added, United Club IHG Platinum, IHG Business and Ritz-Carlton notes (2026-11-14). statusMatchCards: aliases so the four Barclays Wyndham Earner cards and the Wells Fargo Choice Privileges card match their wallet names (2026-11-14). tripPhotos: 11 more destination country photos (AS AQ AM BS BT KH GE GL GU GW HK) and tall crops for MX and IT, credits in stackjet-photos countries/CREDITS.md (2026-11-15). referralLinks: the four American Express links now cover their whole card family in the same country: US Platinum/Gold/Green personal and business, Canadian Platinum/Gold/Green and Cobalt, US Hilton Honors, US Delta SkyMiles (2026-11-15). loungeNetworkPartners: partner airlines whose same-day flight opens an airline's own lounge for a pass or card holder, from each airline's access page and oneworld.com (2026-11-15). airlineTerminals: the terminals each airline departs from at airports with a clear airline split (DTW, LGA, EWR, JFK, PHX, YYZ, MSP, MIA, PHL), from each airport's own airline directory; \"*\" stands for every other airline at that airport (DTW: Evans Terminal); trips use it to show lounges in a flight's terminal when the flight has no terminal saved (2026-11-15).",
   "transferPartners": {
     "citi-us": [
@@ -2722,6 +2722,23 @@
       "ALL Accor Platinum",
       "ALL Accor Diamond",
       "ALL Accor Limitless"
+    ],
+    "sixt": [
+      "SIXT ONE Silver",
+      "SIXT ONE Gold",
+      "SIXT ONE Platinum",
+      "SIXT ONE Diamond"
+    ],
+    "enterprise": [
+      "Enterprise Plus Silver",
+      "Enterprise Plus Gold",
+      "Enterprise Plus Platinum"
+    ],
+    "europcar": [
+      "Privilege Club",
+      "Privilege Executive",
+      "Privilege Elite",
+      "Privilege Elite VIP"
     ]
   },
   "retiredCards": {},
