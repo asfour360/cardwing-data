@@ -3483,6 +3483,38 @@
             "other.blacklane",
             "other.blade",
             "other.credit"
+          ],
+          "credits": [
+            {
+              "id": "bilt-status-earned-cash",
+              "key": "earn.biltcash",
+              "kind": "biltCashEarned",
+              "amountMinor": 5000,
+              "period": "none"
+            },
+            {
+              "id": "bilt-status-hotel-cash",
+              "key": "stay.hotelcash",
+              "kind": "biltCash",
+              "amountMinor": 5000,
+              "period": "monthly",
+              "endsBefore": "2027-01-01"
+            },
+            {
+              "id": "bilt-status-hotel-cash",
+              "key": "stay.hotelcash",
+              "kind": "biltCash",
+              "amountMinor": 5000,
+              "period": "semiannual",
+              "startsOn": "2027-01-01"
+            },
+            {
+              "id": "bilt-status-blacklane",
+              "key": "other.blacklane",
+              "kind": "biltCash",
+              "amountMinor": 5000,
+              "period": "calendarYear"
+            }
           ]
         },
         {
@@ -3556,6 +3588,31 @@
             "other.experiences",
             "other.homebuying",
             "other.blacklane"
+          ],
+          "credits": [
+            {
+              "id": "bilt-status-hotel-cash",
+              "key": "stay.hotelcash",
+              "kind": "biltCash",
+              "amountMinor": 10000,
+              "period": "monthly",
+              "endsBefore": "2027-01-01"
+            },
+            {
+              "id": "bilt-status-hotel-cash",
+              "key": "stay.hotelcash",
+              "kind": "biltCash",
+              "amountMinor": 10000,
+              "period": "semiannual",
+              "startsOn": "2027-01-01"
+            },
+            {
+              "id": "bilt-status-blacklane",
+              "key": "other.blacklane",
+              "kind": "biltCash",
+              "amountMinor": 10000,
+              "period": "calendarYear"
+            }
           ]
         },
         {
@@ -3588,6 +3645,15 @@
             "other.experiences",
             "other.support",
             "other.blacklane"
+          ],
+          "credits": [
+            {
+              "id": "bilt-status-blacklane",
+              "key": "other.blacklane",
+              "kind": "biltCash",
+              "amountMinor": 15000,
+              "period": "calendarYear"
+            }
           ]
         }
       ]
