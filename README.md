@@ -1,8 +1,8 @@
 # stackjet-data
 
-Lounge, card and other data fixes for the **StackJet** iPhone app, published here so they reach everyone without an App Store update.
+Lounge, card and other data fixes for the **Cardwing** iPhone app, published here so they reach everyone without an App Store update.
 
-StackJet downloads [`lounges/corrections.json`](lounges/corrections.json) at most once a day, keeps the last valid copy on the iPhone, and from the next time it starts applies it to every lounge it shows, whether the lounge came from the list built into the app, a table in the app (Air Canada, United, Chase, Capital One, Escape) or the network's own website (Priority Pass, Centurion, Admirals Club, Plaza Premium). From StackJet 1.3 (3). A file that doesn't pass the app's checks is ignored, and the app keeps what it had.
+Cardwing downloads [`lounges/corrections.json`](lounges/corrections.json) at most once a day, keeps the last valid copy on the iPhone, and from the next time it starts applies it to every lounge it shows, whether the lounge came from the list built into the app, a table in the app (Air Canada, United, Chase, Capital One, Escape) or the network's own website (Priority Pass, Centurion, Admirals Club, Plaza Premium). From Cardwing 1.3 (3). A file that doesn't pass the app's checks is ignored, and the app keeps what it had.
 
 ## `lounges/corrections.json`
 
@@ -23,13 +23,13 @@ Rules the app checks: 3-letter uppercase airport codes, a known network name, HT
 
 Right now this file is empty: no card is changed.
 
-StackJet downloads this at most once a day (or straight away with Settings › Check for updates) and applies it right away, on top of the card list built into the app.
+Cardwing downloads this at most once a day (or straight away with Settings › Check for updates) and applies it right away, on top of the card list built into the app.
 
 | Key | What it does |
 |---|---|
 | `format`, `version` | Always `"stackjet-card-corrections"` and `1`. |
 | `updated` | Date of the last change, `yyyy-MM-dd`. |
-| `catalogVersion` | The app's built-in card list version this file was written for (`1.7.71` in StackJet 1.3 (3)). An app whose built-in list is newer ignores the whole file, so an old fix never undoes a newer app update. |
+| `catalogVersion` | The app's built-in card list version this file was written for (`1.7.71` in Cardwing 1.3 (3)). An app whose built-in list is newer ignores the whole file, so an old fix never undoes a newer app update. |
 | `cards` | Whole card entries, in the same format as the app's built-in card list. One with an existing `id` replaces that card (fee, benefits, earn rates…); a new `id` adds a card. Keep benefit `id`s the same so people's tracked credits carry over. |
 | `removeCards` | Card `id`s to take out of the card list. Anyone who already has the card in their wallet keeps it. |
 | `programs` | Rewards programs, replaced or added by `id`. |
@@ -39,7 +39,7 @@ Rules the app checks: the right format, every card's rewards programs known, no 
 
 ## `app/data.json`
 
-Right now this file is empty: nothing is changed. Fixes for StackJet's smaller tables (from StackJet 1.3 (3)). The app downloads it at most once a day (or with Settings › Check for updates) and uses it from the next time it starts. Every section is optional and stands alone: a missing or empty section, or one with a bad entry, leaves that table exactly as built into the app.
+Right now this file is empty: nothing is changed. Fixes for Cardwing's smaller tables (from Cardwing 1.3 (3)). The app downloads it at most once a day (or with Settings › Check for updates) and uses it from the next time it starts. Every section is optional and stands alone: a missing or empty section, or one with a bad entry, leaves that table exactly as built into the app.
 
 | Section | What it does |
 |---|---|
@@ -61,7 +61,7 @@ Right now this file is empty: nothing is changed. Fixes for StackJet's smaller t
 
 ## `status/benefits.json`
 
-What each status tier gives, shown when someone taps a status on StackJet's Status page (from StackJet 1.3 (3)). The app ships a copy and uses this file when it's newer (by `updated`), checked at most once a day. Changes show straight away.
+What each status tier gives, shown when someone taps a status on Cardwing's Status page (from Cardwing 1.3 (3)). The app ships a copy and uses this file when it's newer (by `updated`), checked at most once a day. Changes show straight away.
 
 | Key | What it does |
 |---|---|

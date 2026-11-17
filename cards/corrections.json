@@ -3,7 +3,7 @@
   "version": 1,
   "updated": "2026-11-17",
   "catalogVersion": "1.8.17",
-  "note": "StackJet 1.5 remote card fixes: official RBC Business Cash Back artwork; DoorDash benefit corrections in progress. November 15, 2026: written for card list 1.8.17 (the nine earlier cards now match that list, keeping the RBC Business Cash Back artwork). BMO's card images for the two new BMO business cards are held back until StackJet ships card list 1.8.17: this file also applies to older builds (1.8.15, 1.8.16), which would add those cards as new ones.",
+  "note": "Cardwing 1.5 remote card fixes: official RBC Business Cash Back artwork; DoorDash benefit corrections in progress. November 15, 2026: written for card list 1.8.17 (the nine earlier cards now match that list, keeping the RBC Business Cash Back artwork). BMO's card images for the two new BMO business cards are held back until Cardwing ships card list 1.8.17: this file also applies to older builds (1.8.15, 1.8.16), which would add those cards as new ones.",
   "cards": [
     {
       "id": "rbc-business-cash-back-mastercard-can",
