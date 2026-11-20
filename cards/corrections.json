@@ -1,7 +1,7 @@
 {
   "format": "cardwing-card-corrections",
   "version": 1,
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "catalogVersion": "1.8.17",
   "note": "Cardwing 1.5 remote card fixes: official RBC Business Cash Back artwork; DoorDash benefit corrections in progress. November 15, 2026: written for card list 1.8.17 (the nine earlier cards now match that list, keeping the RBC Business Cash Back artwork). BMO's card images for the two new BMO business cards are held back until Cardwing ships card list 1.8.17: this file also applies to older builds (1.8.15, 1.8.16), which would add those cards as new ones.",
   "cards": [
@@ -1981,11 +1981,11 @@
         {
           "id": "gigsky",
           "title": "GigSky connectivity (Visa Infinite +)",
-          "detail": "Complimentary 10 GB of GigSky global data for 15 consecutive days annually and access to eligible Travel Essentials; activation and terms apply. Effective April 25, 2026.",
+          "detail": "Eligible cardholders can claim a complimentary 10 GB global data plan for 15 consecutive days each year and unlimited access to Travel Essentials for select apps (messaging, navigation and email; not streaming, video or voice calls). The offer also lists one complimentary 1 GB/15-day data plan each year and 20% off future GigSky purchases. Add the eligible card as the default payment method in the GigSky app on an eSIM-compatible device; GigSky offer terms apply. The 10 GB enhancement is effective April 25, 2026.",
           "capMinor": null,
           "reset": "none",
-          "enrollmentRequired": false,
-          "sourceURL": "https://www.scotiabank.com/ca/en/personal/notices/credit-cards/frequently-asked-questions.html",
+          "enrollmentRequired": true,
+          "sourceURL": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/passport-infinite-card.html",
           "kind": "benefit"
         },
         {
@@ -2213,7 +2213,8 @@
       "foreignTransactionFeePercent": 0,
       "benefitSourceURLs": [
         "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/passport-infinite-card.html",
-        "https://princeoftravel.com/credit-cards/scotiabank-passport-visa-infinite-card/"
+        "https://princeoftravel.com/credit-cards/scotiabank-passport-visa-infinite-card/",
+        "https://www.scotiabank.com/ca/en/personal/notices/credit-cards/frequently-asked-questions.html"
       ],
       "artworkURL": "https://kqphqqvkrdovtyhdapud.supabase.co/storage/v1/object/public/media/2026/04/SB-Visa-Infinite-Plus-chip-E-PMS-0326.png",
       "earningDataComplete": true
@@ -2252,5 +2253,7 @@
       "logoSearchTerms": "Europcar Privilege"
     }
   ],
-  "french": {}
+  "french": {
+    "Eligible cardholders can claim a complimentary 10 GB global data plan for 15 consecutive days each year and unlimited access to Travel Essentials for select apps (messaging, navigation and email; not streaming, video or voice calls). The offer also lists one complimentary 1 GB/15-day data plan each year and 20% off future GigSky purchases. Add the eligible card as the default payment method in the GigSky app on an eSIM-compatible device; GigSky offer terms apply. The 10 GB enhancement is effective April 25, 2026.": "Les titulaires admissibles peuvent obtenir chaque année un forfait de données mondial gratuit de 10 Go valide 15 jours consécutifs et un accès illimité à Travel Essentials pour certaines applis (messagerie, navigation et courriel; sauf diffusion en continu, vidéo et appels vocaux). L'offre comprend aussi un forfait de données gratuit de 1 Go valide 15 jours chaque année et 20 % de rabais sur les achats GigSky futurs. Ajoutez la carte admissible comme mode de paiement par défaut dans l'appli GigSky sur un appareil compatible eSIM; les conditions de l'offre GigSky s'appliquent. L'amélioration à 10 Go entre en vigueur le 25 avril 2026."
+  }
 }
