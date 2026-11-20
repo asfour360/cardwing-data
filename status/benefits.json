@@ -1,8 +1,8 @@
 {
   "format": "cardwing-status-benefits",
   "version": 1,
-  "updated": "2026-11-17",
-  "note": "Airline tier benefits updated 2026-11-04: British Airways Club, Iberia Club, AerClub, VIPorter, Cathay and Breezy Rewards, alongside earlier programs. Source details reflect 2026 rules. Airline ladder refresh checked 2026-11-05 against official program pages. Tiers with Jan 2027 effective dates are labeled in qualification text; preserving current-year rules where changes are pending. Hotel status details refreshed 2026-11-05: added base tiers and complete public progressions for ALL Accor, One Key, Leaders Club, and Omni Select Guest. ALL Accor lounge access clarified against the Accor terms effective 2026-11-16. Bilt status benefits refreshed 2026-11-17 against Bilt's app wording: added free Bilt Home Delivery and the Bilt Collection, Bilt Cash expiry, and the Hyatt 4:3 transfer change from Jan 1, 2027.",
+  "updated": "2026-11-20",
+  "note": "Airline tier benefits updated 2026-11-04: British Airways Club, Iberia Club, AerClub, VIPorter, Cathay and Breezy Rewards, alongside earlier programs. Source details reflect 2026 rules. Airline ladder refresh checked 2026-11-05 against official program pages. Tiers with Jan 2027 effective dates are labeled in qualification text; preserving current-year rules where changes are pending. Hotel status details refreshed 2026-11-05: added base tiers and complete public progressions for ALL Accor, One Key, Leaders Club, and Omni Select Guest. ALL Accor lounge access clarified against the Accor terms effective 2026-11-16. Bilt status benefits refreshed 2026-11-17 against Bilt's app wording: added free Bilt Home Delivery and the Bilt Collection, Bilt Cash expiry, and the Hyatt 4:3 transfer change from Jan 1, 2027. Car rental status benefits added 2026-11-20 for SIXT ONE, Enterprise Plus and Europcar Privilege For You from each program's own page.",
   "programs": {
     "delta": {
       "sourceName": "Delta",
@@ -3663,6 +3663,259 @@
               "amountMinor": 15000,
               "period": "calendarYear"
             }
+          ]
+        }
+      ]
+    },
+    "sixt": {
+      "sourceName": "SIXT ONE",
+      "sourceURL": "https://www.sixt.com/sixt-one/",
+      "checked": "2026-11-20",
+      "note": "Status points count by calendar year; a tier reached in one year is kept through the end of the next year.",
+      "noteFR": "Les points de statut comptent par année civile; un niveau atteint une année est conservé jusqu'à la fin de l'année suivante.",
+      "tiers": [
+        {
+          "name": "SIXT ONE Silver",
+          "qualify": "Free to join; the entry tier.",
+          "qualifyFR": "Adhésion gratuite; niveau d'entrée.",
+          "benefits": [
+            "Member rates: up to 8% off in the SIXT app",
+            "Rental points: 1 per €1 of qualifying spend (1 per €4 on rentals of 28 days or more), to redeem on future rentals",
+            "Skip the counter with Mobile Check-in and choose from up to 2 cars",
+            "Member-only offers"
+          ],
+          "benefitsFR": [
+            "Tarifs membres : jusqu'à 8 % de rabais dans l'appli SIXT",
+            "Points de location : 1 par 1 € de dépenses admissibles (1 par 4 € pour les locations de 28 jours ou plus), à échanger contre de futures locations",
+            "Évitez le comptoir avec l'enregistrement mobile et choisissez parmi jusqu'à 2 voitures",
+            "Offres réservées aux membres"
+          ],
+          "keys": [
+            "other.discount",
+            "earn.base",
+            "other.choice",
+            "other.offers"
+          ]
+        },
+        {
+          "name": "SIXT ONE Gold",
+          "qualify": "2,000 status points in a calendar year (1 status point per €1 of qualifying spend).",
+          "qualifyFR": "2 000 points de statut par année civile (1 point de statut par 1 € de dépenses admissibles).",
+          "benefits": [
+            "Member rates: up to 10% off",
+            "10% more rental points",
+            "Choose from up to 3 cars after Mobile Check-in"
+          ],
+          "benefitsFR": [
+            "Tarifs membres : jusqu'à 10 % de rabais",
+            "10 % de points de location en plus",
+            "Choisissez parmi jusqu'à 3 voitures après l'enregistrement mobile"
+          ],
+          "keys": [
+            "other.discount",
+            "earn.bonus",
+            "other.choice"
+          ]
+        },
+        {
+          "name": "SIXT ONE Platinum",
+          "qualify": "4,000 status points in a calendar year.",
+          "qualifyFR": "4 000 points de statut par année civile.",
+          "benefits": [
+            "Member rates: up to 15% off",
+            "20% more rental points",
+            "Eligible for free upgrades"
+          ],
+          "benefitsFR": [
+            "Tarifs membres : jusqu'à 15 % de rabais",
+            "20 % de points de location en plus",
+            "Admissible aux surclassements gratuits"
+          ],
+          "keys": [
+            "other.discount",
+            "earn.bonus",
+            "upgrades.car"
+          ]
+        },
+        {
+          "name": "SIXT ONE Diamond",
+          "qualify": "6,000 status points in a calendar year.",
+          "qualifyFR": "6 000 points de statut par année civile.",
+          "benefits": [
+            "Member rates: up to 20% off",
+            "30% more rental points",
+            "SIXT Diamond Lounge access"
+          ],
+          "benefitsFR": [
+            "Tarifs membres : jusqu'à 20 % de rabais",
+            "30 % de points de location en plus",
+            "Accès au SIXT Diamond Lounge"
+          ],
+          "keys": [
+            "other.discount",
+            "earn.bonus",
+            "lounge.access"
+          ]
+        }
+      ]
+    },
+    "enterprise": {
+      "sourceName": "Enterprise Plus",
+      "sourceURL": "https://www.enterprise.com/en/loyalty.html",
+      "checked": "2026-11-20",
+      "tiers": [
+        {
+          "name": "Enterprise Plus",
+          "qualify": "Free to join; 0 to 5 qualifying rentals.",
+          "qualifyFR": "Adhésion gratuite; 0 à 5 locations admissibles.",
+          "benefits": [
+            "1 point per qualifying rental dollar, redeemable for free rental days (base rate)",
+            "Points don't expire while you make at least one qualifying rental every three years"
+          ],
+          "benefitsFR": [
+            "1 point par dollar de location admissible, échangeable contre des jours de location gratuits (tarif de base)",
+            "Les points n'expirent pas tant que vous faites au moins une location admissible tous les trois ans"
+          ],
+          "keys": [
+            "earn.base",
+            "other.expiry"
+          ]
+        },
+        {
+          "name": "Enterprise Plus Silver",
+          "qualify": "6 qualifying rentals in a calendar year.",
+          "qualifyFR": "6 locations admissibles par année civile.",
+          "benefits": [
+            "10% bonus points",
+            "1 free car upgrade per program year"
+          ],
+          "benefitsFR": [
+            "10 % de points en prime",
+            "1 surclassement gratuit par année de programme"
+          ],
+          "keys": [
+            "earn.bonus",
+            "upgrades.car"
+          ]
+        },
+        {
+          "name": "Enterprise Plus Gold",
+          "qualify": "12 qualifying rentals or 40 rental days in a calendar year.",
+          "qualifyFR": "12 locations admissibles ou 40 jours de location par année civile.",
+          "benefits": [
+            "15% bonus points",
+            "2 free car upgrades per program year"
+          ],
+          "benefitsFR": [
+            "15 % de points en prime",
+            "2 surclassements gratuits par année de programme"
+          ],
+          "keys": [
+            "earn.bonus",
+            "upgrades.car"
+          ]
+        },
+        {
+          "name": "Enterprise Plus Platinum",
+          "qualify": "24 qualifying rentals or 85 rental days in a calendar year.",
+          "qualifyFR": "24 locations admissibles ou 85 jours de location par année civile.",
+          "benefits": [
+            "20% bonus points",
+            "4 free car upgrades per program year"
+          ],
+          "benefitsFR": [
+            "20 % de points en prime",
+            "4 surclassements gratuits par année de programme"
+          ],
+          "keys": [
+            "earn.bonus",
+            "upgrades.car"
+          ]
+        }
+      ]
+    },
+    "europcar": {
+      "sourceName": "Europcar Privilege For You",
+      "sourceURL": "https://www.europcar.com/en-us/p/business/privilege",
+      "checked": "2026-11-20",
+      "note": "Levels go by points: 1 point per €1 spent on rentals. Europcar's page does not say over what period points count toward a level.",
+      "noteFR": "Les niveaux dépendent des points : 1 point par 1 € dépensé en location. La page d'Europcar ne précise pas sur quelle période les points comptent pour un niveau.",
+      "tiers": [
+        {
+          "name": "Europcar Discoverer",
+          "qualify": "Free to join; Level 1, 0 to 999 points (100 welcome points).",
+          "qualifyFR": "Adhésion gratuite; niveau 1, 0 à 999 points (100 points de bienvenue).",
+          "benefits": [
+            "10% off rentals all year round",
+            "1 point per €1 spent on business and leisure rentals",
+            "Special offers",
+            "Up to 15% off at Accor hotels"
+          ],
+          "benefitsFR": [
+            "10 % de rabais sur les locations toute l'année",
+            "1 point par 1 € dépensé sur les locations d'affaires et de loisirs",
+            "Offres spéciales",
+            "Jusqu'à 15 % de rabais dans les hôtels Accor"
+          ],
+          "keys": [
+            "other.discount",
+            "earn.base",
+            "other.offers",
+            "other.accor"
+          ]
+        },
+        {
+          "name": "Europcar Traveller",
+          "qualify": "Level 2: 1,000 to 2,999 points.",
+          "qualifyFR": "Niveau 2 : 1 000 à 2 999 points.",
+          "benefits": [
+            "10% more points"
+          ],
+          "benefitsFR": [
+            "10 % de points en plus"
+          ],
+          "keys": [
+            "earn.bonus"
+          ]
+        },
+        {
+          "name": "Europcar Adventurer",
+          "qualify": "Level 3: 3,000 to 9,999 points.",
+          "qualifyFR": "Niveau 3 : 3 000 à 9 999 points.",
+          "benefits": [
+            "20% more points",
+            "Vehicle category upgrade",
+            "Free additional driver",
+            "Priority service at the counter"
+          ],
+          "benefitsFR": [
+            "20 % de points en plus",
+            "Surclassement d'une catégorie de véhicule",
+            "Conducteur supplémentaire gratuit",
+            "Service prioritaire au comptoir"
+          ],
+          "keys": [
+            "earn.bonus",
+            "upgrades.car",
+            "other.driver",
+            "other.counter"
+          ]
+        },
+        {
+          "name": "Europcar Navigator",
+          "qualify": "Level 4: 10,000 points or more.",
+          "qualifyFR": "Niveau 4 : 10 000 points ou plus.",
+          "benefits": [
+            "30% more points",
+            "Double vehicle category upgrade"
+          ],
+          "benefitsFR": [
+            "30 % de points en plus",
+            "Surclassement de deux catégories de véhicule"
+          ],
+          "keys": [
+            "earn.bonus",
+            "upgrades.car"
           ]
         }
       ]

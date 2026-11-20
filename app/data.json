@@ -1,7 +1,7 @@
 {
   "format": "cardwing-app-data",
   "version": 1,
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "note": "Every section is optional; an empty or missing section leaves that table as built into the app. statusTiers: WestJet, plus Porter, British Airways, Iberia, Aer Lingus and Cathay tiers (2026-11-03). Atmos Rewards four tier names added (2026-11-04). Breeze Rewards tier names added; first-year Breeze Easy Visa status remains conditional (2026-11-04); ALL Accor tiers (2026-11-06). Amex Platinum (Canada) ALL Accor Gold grant, verified on the Amex Canada card page (2026-11-12). tripPhotos: 12 destination country photos, CC0/public domain from Wikimedia Commons, credits in cardwing-photos countries/CREDITS.md (2026-11-13). statusMatchCards: Wyndham Earner Plus to Platinum, Choice Privileges Select added, United Club IHG Platinum, IHG Business and Ritz-Carlton notes (2026-11-14). statusMatchCards: aliases so the four Barclays Wyndham Earner cards and the Wells Fargo Choice Privileges card match their wallet names (2026-11-14). tripPhotos: 11 more destination country photos (AS AQ AM BS BT KH GE GL GU GW HK) and tall crops for MX and IT, credits in cardwing-photos countries/CREDITS.md (2026-11-15). referralLinks: the four American Express links now cover their whole card family in the same country: US Platinum/Gold/Green personal and business, Canadian Platinum/Gold/Green and Cobalt, US Hilton Honors, US Delta SkyMiles (2026-11-15). loungeNetworkPartners: partner airlines whose same-day flight opens an airline's own lounge for a pass or card holder, from each airline's access page and oneworld.com (2026-11-15). airlineTerminals: the terminals each airline departs from at airports with a clear airline split (DTW, LGA, EWR, JFK, PHX, YYZ, MSP, MIA, PHL), from each airport's own airline directory; \"*\" stands for every other airline at that airport (DTW: Evans Terminal); trips use it to show lounges in a flight's terminal when the flight has no terminal saved (2026-11-15).",
   "transferPartners": {
     "citi-us": [
@@ -360,7 +360,7 @@
       "minRank": 1,
       "destProgram": "wyndham",
       "destRank": 2,
-      "dest": "Wyndham Platinum",
+      "dest": "Wyndham Rewards Platinum",
       "instant": true,
       "detail": "Matched Platinum lasts 90 days; complete 7 qualifying nights in that period to keep it.",
       "url": "https://www.wyndhamhotels.com/en-uk/wyndham-rewards/status-match"
@@ -380,7 +380,7 @@
       "minRank": 1,
       "destProgram": "wyndham",
       "destRank": 2,
-      "dest": "Wyndham Platinum",
+      "dest": "Wyndham Rewards Platinum",
       "instant": true,
       "detail": "Matched Platinum lasts 90 days; complete 7 qualifying nights in that period to keep it.",
       "url": "https://www.wyndhamhotels.com/en-uk/wyndham-rewards/status-match"
@@ -400,7 +400,7 @@
       "minRank": 1,
       "destProgram": "wyndham",
       "destRank": 2,
-      "dest": "Wyndham Platinum",
+      "dest": "Wyndham Rewards Platinum",
       "instant": true,
       "detail": "Discoverist and Explorist map to Platinum. Complete 7 qualifying nights in 90 days to keep it.",
       "url": "https://www.wyndhamhotels.com/en-uk/wyndham-rewards/status-match"
@@ -420,7 +420,7 @@
       "minRank": 2,
       "destProgram": "wyndham",
       "destRank": 2,
-      "dest": "Wyndham Platinum",
+      "dest": "Wyndham Rewards Platinum",
       "instant": true,
       "detail": "IHG Gold and Platinum map to Wyndham Platinum. Complete 7 qualifying nights in 90 days to keep it.",
       "url": "https://www.wyndhamhotels.com/en-uk/wyndham-rewards/status-match"
@@ -430,7 +430,7 @@
       "minRank": 1,
       "destProgram": "wyndham",
       "destRank": 2,
-      "dest": "Wyndham Platinum",
+      "dest": "Wyndham Rewards Platinum",
       "instant": true,
       "detail": "Choice Gold and Platinum map to Wyndham Platinum. Complete 7 qualifying nights in 90 days to keep it.",
       "url": "https://www.wyndhamhotels.com/en-uk/wyndham-rewards/status-match"
@@ -440,7 +440,7 @@
       "minRank": 1,
       "destProgram": "wyndham",
       "destRank": 2,
-      "dest": "Wyndham Platinum",
+      "dest": "Wyndham Rewards Platinum",
       "instant": true,
       "detail": "Best Western Gold through Diamond map to Wyndham Platinum. Complete 7 qualifying nights in 90 days to keep it.",
       "url": "https://www.wyndhamhotels.com/en-uk/wyndham-rewards/status-match"
@@ -702,19 +702,29 @@
     },
     {
       "source": "marriott",
+      "minRank": 1,
+      "destProgram": "sixt",
+      "destRank": 2,
+      "dest": "SIXT ONE Gold",
+      "instant": true,
+      "detail": "From Marriott Bonvoy Silver Elite, with a free SIXT ONE account.",
+      "url": "https://www.sixt.com/partners/marriottbonvoy_en/"
+    },
+    {
+      "source": "marriott",
       "minRank": 2,
       "destProgram": "sixt",
-      "destRank": 1,
-      "dest": "Sixt Platinum",
+      "destRank": 3,
+      "dest": "SIXT ONE Platinum",
       "instant": true,
-      "detail": "Reported from Marriott Gold.",
-      "url": "https://www.sixt.com/help-center/articles/how-do-i-request-a-sixt-one-status-match-from-another-loyalty-program/"
+      "detail": "From Marriott Bonvoy Gold or Platinum Elite, with a free SIXT ONE account.",
+      "url": "https://www.sixt.com/partners/marriottbonvoy_en/"
     },
     {
       "source": "hertz",
       "minRank": 1,
       "destProgram": "enterprise",
-      "destRank": 1,
+      "destRank": 2,
       "dest": "Enterprise Plus Gold",
       "instant": true,
       "detail": "Two upgrade certificates.",
@@ -724,7 +734,7 @@
       "source": "hertz",
       "minRank": 2,
       "destProgram": "enterprise",
-      "destRank": 2,
+      "destRank": 3,
       "dest": "Enterprise Plus Platinum",
       "instant": true,
       "detail": "Four upgrade certificates. A 2026 match runs through February 2028.",
@@ -734,7 +744,7 @@
       "source": "avis",
       "minRank": 1,
       "destProgram": "enterprise",
-      "destRank": 1,
+      "destRank": 2,
       "dest": "Enterprise Plus Gold",
       "instant": true,
       "detail": "From Avis Preferred Plus.",
@@ -744,7 +754,7 @@
       "source": "avis",
       "minRank": 2,
       "destProgram": "enterprise",
-      "destRank": 2,
+      "destRank": 3,
       "dest": "Enterprise Plus Platinum",
       "instant": true,
       "detail": "From Avis President's Club.",
@@ -1238,7 +1248,7 @@
         {
           "program": "marriott",
           "rank": 2,
-          "tier": "Marriott Bonvoy Gold",
+          "tier": "Marriott Bonvoy Gold Elite",
           "note": "Enroll."
         },
         {
@@ -1283,7 +1293,7 @@
         {
           "program": "marriott",
           "rank": 2,
-          "tier": "Marriott Bonvoy Gold",
+          "tier": "Marriott Bonvoy Gold Elite",
           "note": "Enroll."
         },
         {
@@ -1337,6 +1347,12 @@
           "rank": 2,
           "tier": "Hilton Honors Gold",
           "note": "Diamond after $40,000 spend."
+        },
+        {
+          "program": "national",
+          "rank": 1,
+          "tier": "National Executive",
+          "note": "Enroll through your Amex account."
         }
       ],
       "aliases": [
@@ -1351,6 +1367,12 @@
           "rank": 2,
           "tier": "Hilton Honors Gold",
           "note": "Diamond after $40,000 spend."
+        },
+        {
+          "program": "national",
+          "rank": 1,
+          "tier": "National Executive",
+          "note": "Enroll through your Amex account."
         }
       ],
       "aliases": [
@@ -1364,6 +1386,12 @@
           "program": "hilton",
           "rank": 3,
           "tier": "Hilton Honors Diamond"
+        },
+        {
+          "program": "national",
+          "rank": 1,
+          "tier": "National Executive",
+          "note": "Enroll through your Amex account."
         }
       ],
       "aliases": [
@@ -1376,7 +1404,7 @@
         {
           "program": "marriott",
           "rank": 1,
-          "tier": "Marriott Bonvoy Silver"
+          "tier": "Marriott Bonvoy Silver Elite"
         }
       ]
     },
@@ -1386,7 +1414,7 @@
         {
           "program": "marriott",
           "rank": 1,
-          "tier": "Marriott Bonvoy Silver",
+          "tier": "Marriott Bonvoy Silver Elite",
           "note": "Gold after $35,000 spend."
         }
       ]
@@ -1397,7 +1425,7 @@
         {
           "program": "marriott",
           "rank": 2,
-          "tier": "Marriott Bonvoy Gold"
+          "tier": "Marriott Bonvoy Gold Elite"
         }
       ]
     },
@@ -1407,7 +1435,7 @@
         {
           "program": "marriott",
           "rank": 2,
-          "tier": "Marriott Bonvoy Gold"
+          "tier": "Marriott Bonvoy Gold Elite"
         }
       ]
     },
@@ -1417,7 +1445,7 @@
         {
           "program": "marriott",
           "rank": 2,
-          "tier": "Marriott Bonvoy Gold"
+          "tier": "Marriott Bonvoy Gold Elite"
         }
       ]
     },
@@ -1427,7 +1455,7 @@
         {
           "program": "marriott",
           "rank": 3,
-          "tier": "Marriott Bonvoy Platinum"
+          "tier": "Marriott Bonvoy Platinum Elite"
         }
       ],
       "aliases": [
@@ -1440,7 +1468,7 @@
         {
           "program": "marriott",
           "rank": 2,
-          "tier": "Marriott Bonvoy Gold",
+          "tier": "Marriott Bonvoy Gold Elite",
           "note": "Platinum after $75,000 spend in a calendar year. Closed to new applicants."
         }
       ],
@@ -1550,6 +1578,18 @@
           "rank": 3,
           "tier": "IHG Platinum Elite",
           "note": "Diamond and Hyatt Explorist after $120,000 spend."
+        },
+        {
+          "program": "avis",
+          "rank": 1,
+          "tier": "Avis Preferred Plus",
+          "note": "Automatic enrollment."
+        },
+        {
+          "program": "national",
+          "rank": 1,
+          "tier": "National Executive",
+          "note": "Enroll."
         }
       ],
       "aliases": [
@@ -1562,7 +1602,7 @@
         {
           "program": "wyndham",
           "rank": 1,
-          "tier": "Wyndham Gold"
+          "tier": "Wyndham Rewards Gold"
         }
       ],
       "aliases": [
@@ -1575,7 +1615,7 @@
         {
           "program": "wyndham",
           "rank": 2,
-          "tier": "Wyndham Platinum",
+          "tier": "Wyndham Rewards Platinum",
           "note": "Diamond in year 1, then Platinum."
         }
       ],
@@ -1589,7 +1629,7 @@
         {
           "program": "wyndham",
           "rank": 3,
-          "tier": "Wyndham Diamond"
+          "tier": "Wyndham Rewards Diamond"
         }
       ],
       "aliases": [
@@ -1602,7 +1642,7 @@
         {
           "program": "wyndham",
           "rank": 3,
-          "tier": "Wyndham Diamond"
+          "tier": "Wyndham Rewards Diamond"
         }
       ],
       "aliases": [
@@ -1732,7 +1772,14 @@
     },
     {
       "name": "Delta SkyMiles Platinum Amex",
-      "grants": [],
+      "grants": [
+        {
+          "program": "hertz",
+          "rank": 1,
+          "tier": "Hertz Five Star",
+          "note": "Link Hertz Gold Plus Rewards to SkyMiles and enroll at delta.com/hertz."
+        }
+      ],
       "aliases": [
         "Amex Plat Delta SkyMiles",
         "Delta Platinum"
@@ -1741,7 +1788,14 @@
     },
     {
       "name": "Delta SkyMiles Platinum Business Amex",
-      "grants": [],
+      "grants": [
+        {
+          "program": "hertz",
+          "rank": 1,
+          "tier": "Hertz Five Star",
+          "note": "Link Hertz Gold Plus Rewards to SkyMiles and enroll at delta.com/hertz."
+        }
+      ],
       "aliases": [
         "Amex Biz Plat Delta",
         "Delta Platinum Business"
@@ -1750,7 +1804,14 @@
     },
     {
       "name": "Delta SkyMiles Reserve Amex",
-      "grants": [],
+      "grants": [
+        {
+          "program": "hertz",
+          "rank": 2,
+          "tier": "Hertz President's Circle",
+          "note": "Link Hertz Gold Plus Rewards to SkyMiles and enroll at delta.com/hertz."
+        }
+      ],
       "aliases": [
         "Delta Reserve"
       ],
@@ -1758,7 +1819,14 @@
     },
     {
       "name": "Delta SkyMiles Reserve Business Amex",
-      "grants": [],
+      "grants": [
+        {
+          "program": "hertz",
+          "rank": 2,
+          "tier": "Hertz President's Circle",
+          "note": "Link Hertz Gold Plus Rewards to SkyMiles and enroll at delta.com/hertz."
+        }
+      ],
       "aliases": [
         "Delta Reserve Business"
       ],
@@ -1852,7 +1920,7 @@
         {
           "program": "marriott",
           "rank": 2,
-          "tier": "Marriott Bonvoy Gold",
+          "tier": "Marriott Bonvoy Gold Elite",
           "note": "Enroll in the Canadian Amex account."
         },
         {
@@ -1881,7 +1949,7 @@
         {
           "program": "marriott",
           "rank": 2,
-          "tier": "Marriott Bonvoy Gold",
+          "tier": "Marriott Bonvoy Gold Elite",
           "note": "Enroll in the Canadian Amex account."
         },
         {
@@ -1908,7 +1976,7 @@
         {
           "program": "marriott",
           "rank": 2,
-          "tier": "Marriott Bonvoy Gold",
+          "tier": "Marriott Bonvoy Gold Elite",
           "note": "Enroll in the Canadian Amex account."
         },
         {
@@ -1926,7 +1994,7 @@
         {
           "program": "marriott",
           "rank": 1,
-          "tier": "Marriott Bonvoy Silver",
+          "tier": "Marriott Bonvoy Silver Elite",
           "note": "15 elite nights. Gold after $30,000 spend, or 10 paid nights plus those credits."
         }
       ],
@@ -1941,7 +2009,7 @@
         {
           "program": "marriott",
           "rank": 1,
-          "tier": "Marriott Bonvoy Silver",
+          "tier": "Marriott Bonvoy Silver Elite",
           "note": "Same Silver and Gold-after-spend path as the personal Canadian card."
         }
       ],
@@ -1955,6 +2023,12 @@
           "rank": 1,
           "tier": "World of Hyatt Discoverist",
           "note": "Canadian Aeroplan premium cards. Also 5 tier-qualifying nights."
+        },
+        {
+          "program": "avis",
+          "rank": 2,
+          "tier": "Avis President's Club",
+          "note": "Enroll through the Aeroplan Avis form with an existing Avis account."
         }
       ],
       "aliases": [
@@ -2091,7 +2165,14 @@
     },
     {
       "name": "Amex Aeroplan Card (Canada)",
-      "grants": [],
+      "grants": [
+        {
+          "program": "avis",
+          "rank": 1,
+          "tier": "Avis Preferred Plus",
+          "note": "Enroll through the Aeroplan Avis form with an existing Avis account."
+        }
+      ],
       "country": "CA",
       "note": "Earns Aeroplan SQC only. It does not grant automatic elite status."
     },
@@ -2208,6 +2289,12 @@
           "rank": 1,
           "tier": "RSVP Rewards Platinum",
           "note": "Sandman and Sutton Place. Canadian Visa Infinite only."
+        },
+        {
+          "program": "avis",
+          "rank": 1,
+          "tier": "Avis Preferred Plus",
+          "note": "Enroll with the card at Avis."
         }
       ],
       "country": "CA"
@@ -2282,7 +2369,14 @@
     },
     {
       "name": "Amex Gold",
-      "grants": []
+      "grants": [
+        {
+          "program": "hertz",
+          "rank": 1,
+          "tier": "Hertz Five Star",
+          "note": "Enroll through your Amex account."
+        }
+      ]
     },
     {
       "name": "Amex Green",
@@ -2663,6 +2757,20 @@
       "name": "Wealthsimple Credit Card",
       "grants": [],
       "country": "CA"
+    },
+    {
+      "name": "Chase United Club Business",
+      "grants": [
+        {
+          "program": "avis",
+          "rank": 2,
+          "tier": "Avis President's Club",
+          "note": "Enroll at united.com/AvisChaseBenefit."
+        }
+      ],
+      "aliases": [
+        "United Club Business"
+      ]
     }
   ],
   "statusProgramNames": {},
@@ -2735,10 +2843,10 @@
       "Enterprise Plus Platinum"
     ],
     "europcar": [
-      "Privilege Club",
-      "Privilege Executive",
-      "Privilege Elite",
-      "Privilege Elite VIP"
+      "Europcar Discoverer",
+      "Europcar Traveller",
+      "Europcar Adventurer",
+      "Europcar Navigator"
     ]
   },
   "retiredCards": {},
