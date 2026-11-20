@@ -1686,7 +1686,7 @@
         {
           "id": "gigsky-10gb-2026",
           "title": "GigSky annual mobile data and Travel Essentials",
-          "detail": "Eligible cardholders can claim a complimentary 10 GB global data plan for 15 consecutive days each year and unlimited access to Travel Essentials for select apps. The offer also lists one complimentary 1 GB/15-day data plan each year and 20% off future GigSky purchases. Add the eligible card as the default payment method in the GigSky app; GigSky offer terms apply. The 10 GB enhancement is effective April 25, 2026.",
+          "detail": "Visa Infinite+ cardholders get a complimentary 10 GB GigSky global data plan for 15 consecutive days each year, plus unlimited access to GigSky Travel Essentials for select travel apps (messaging, navigation and email; not streaming, video, voice calls or large file transfers). The standard Visa Infinite GigSky offer also applies: one complimentary 1 GB / 15-day plan each year and 20% off additional GigSky plans. Add the card as the default payment method in the GigSky app on an eSIM-compatible device; GigSky terms apply and GigSky may change the offer. The 10 GB plan and Travel Essentials are effective April 25, 2026.",
           "capMinor": null,
           "reset": "none",
           "enrollmentRequired": true,
@@ -1933,7 +1933,10 @@
       "benefitSourceURLs": [
         "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/momentum-infinite-card.html",
         "https://www.scotiabank.com/content/dam/scotiabank/canada/common/documents/pdf/Momentum-Infinite-COI-EN.pdf",
-        "https://www.scotiabank.com/ca/en/personal/notices/credit-cards/frequently-asked-questions.html"
+        "https://www.scotiabank.com/ca/en/personal/notices/credit-cards/frequently-asked-questions.html",
+        "https://www.scotiabank.com/visainfiniteplus",
+        "https://www.gigsky.com/visa/terms?tab=canada",
+        "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/momentum-infinite-card/welcome-kit/benefits.html"
       ],
       "artworkURL": "https://kqphqqvkrdovtyhdapud.supabase.co/storage/v1/object/public/media/2026/04/Momentum_Infinite_Plus_Chip_E_RGB.png",
       "foreignTransactionFeePercent": 2.5,
@@ -1981,7 +1984,7 @@
         {
           "id": "gigsky",
           "title": "GigSky connectivity (Visa Infinite +)",
-          "detail": "Eligible cardholders can claim a complimentary 10 GB global data plan for 15 consecutive days each year and unlimited access to Travel Essentials for select apps (messaging, navigation and email; not streaming, video or voice calls). The offer also lists one complimentary 1 GB/15-day data plan each year and 20% off future GigSky purchases. Add the eligible card as the default payment method in the GigSky app on an eSIM-compatible device; GigSky offer terms apply. The 10 GB enhancement is effective April 25, 2026.",
+          "detail": "Visa Infinite+ cardholders get a complimentary 10 GB GigSky global data plan for 15 consecutive days each year, plus unlimited access to GigSky Travel Essentials for select travel apps (messaging, navigation and email; not streaming, video, voice calls or large file transfers). The standard Visa Infinite GigSky offer also applies: one complimentary 1 GB / 15-day plan each year and 20% off additional GigSky plans. Add the card as the default payment method in the GigSky app on an eSIM-compatible device; GigSky terms apply and GigSky may change the offer. The 10 GB plan and Travel Essentials are effective April 25, 2026.",
           "capMinor": null,
           "reset": "none",
           "enrollmentRequired": true,
@@ -2214,7 +2217,9 @@
       "benefitSourceURLs": [
         "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/passport-infinite-card.html",
         "https://princeoftravel.com/credit-cards/scotiabank-passport-visa-infinite-card/",
-        "https://www.scotiabank.com/ca/en/personal/notices/credit-cards/frequently-asked-questions.html"
+        "https://www.scotiabank.com/ca/en/personal/notices/credit-cards/frequently-asked-questions.html",
+        "https://www.scotiabank.com/visainfiniteplus",
+        "https://www.gigsky.com/visa/terms?tab=canada"
       ],
       "artworkURL": "https://kqphqqvkrdovtyhdapud.supabase.co/storage/v1/object/public/media/2026/04/SB-Visa-Infinite-Plus-chip-E-PMS-0326.png",
       "earningDataComplete": true
@@ -2254,6 +2259,6 @@
     }
   ],
   "french": {
-    "Eligible cardholders can claim a complimentary 10 GB global data plan for 15 consecutive days each year and unlimited access to Travel Essentials for select apps (messaging, navigation and email; not streaming, video or voice calls). The offer also lists one complimentary 1 GB/15-day data plan each year and 20% off future GigSky purchases. Add the eligible card as the default payment method in the GigSky app on an eSIM-compatible device; GigSky offer terms apply. The 10 GB enhancement is effective April 25, 2026.": "Les titulaires admissibles peuvent obtenir chaque année un forfait de données mondial gratuit de 10 Go valide 15 jours consécutifs et un accès illimité à Travel Essentials pour certaines applis (messagerie, navigation et courriel; sauf diffusion en continu, vidéo et appels vocaux). L'offre comprend aussi un forfait de données gratuit de 1 Go valide 15 jours chaque année et 20 % de rabais sur les achats GigSky futurs. Ajoutez la carte admissible comme mode de paiement par défaut dans l'appli GigSky sur un appareil compatible eSIM; les conditions de l'offre GigSky s'appliquent. L'amélioration à 10 Go entre en vigueur le 25 avril 2026."
+    "Visa Infinite+ cardholders get a complimentary 10 GB GigSky global data plan for 15 consecutive days each year, plus unlimited access to GigSky Travel Essentials for select travel apps (messaging, navigation and email; not streaming, video, voice calls or large file transfers). The standard Visa Infinite GigSky offer also applies: one complimentary 1 GB / 15-day plan each year and 20% off additional GigSky plans. Add the card as the default payment method in the GigSky app on an eSIM-compatible device; GigSky terms apply and GigSky may change the offer. The 10 GB plan and Travel Essentials are effective April 25, 2026.": "Les titulaires d'une carte Visa Infinite+ obtiennent chaque année un forfait de données mondial GigSky gratuit de 10 Go valide 15 jours consécutifs, ainsi qu'un accès illimité à Travel Essentials de GigSky pour certaines applis de voyage essentielles (messagerie, navigation et courriel; sauf diffusion en continu, vidéo, appels vocaux et transferts de fichiers volumineux). L'offre GigSky standard Visa Infinite s'applique aussi : un forfait gratuit de 1 Go valide 15 jours chaque année et 20 % de rabais sur les forfaits GigSky supplémentaires. Ajoutez la carte comme mode de paiement par défaut dans l'appli GigSky sur un appareil compatible eSIM; les conditions de GigSky s'appliquent et GigSky peut modifier l'offre. Le forfait de 10 Go et Travel Essentials sont en vigueur depuis le 25 avril 2026."
   }
 }
