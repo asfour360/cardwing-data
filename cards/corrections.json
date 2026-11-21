@@ -1,9 +1,9 @@
 {
   "format": "cardwing-card-corrections",
   "version": 1,
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "catalogVersion": "1.8.17",
-  "note": "Cardwing 1.5 remote card fixes: official RBC Business Cash Back artwork; DoorDash benefit corrections in progress. November 15, 2026: written for card list 1.8.17 (the nine earlier cards now match that list, keeping the RBC Business Cash Back artwork). BMO's card images for the two new BMO business cards are held back until Cardwing ships card list 1.8.17: this file also applies to older builds (1.8.15, 1.8.16), which would add those cards as new ones. November 20, 2026: car rental status fixes (Avis Preferred Plus on the U.S. Platinum cards; Hertz Five Star on Capital One Venture, Savor and Quicksilver; Avis Preferred Plus and National Executive on Sapphire Reserve for Business; Venture X Business Hertz President's Circle given automatically; ranks on these cards put on the Status page's tier scale, also on the Canadian Platinum and Business Platinum: Hertz Five Star, Avis Preferred as the free base tier; the same tier scale on the Amex Gold, Delta SkyMiles Platinum and Reserve, Hilton Honors Aspire, Surpass and Business, Amex Aeroplan, Desjardins and Venture X cards) and Europcar's program renamed Privilege For You; IHG ranks put on the same tier scale (Platinum Elite 30, Diamond Elite 40) on Sapphire Reserve, Sapphire Reserve for Business, the three IHG One Rewards Premier cards and United Club, and Breezy 1 on the Breeze Easy Visa (20).",
+  "note": "Cardwing 1.5 remote card fixes: official RBC Business Cash Back artwork; DoorDash benefit corrections in progress. November 15, 2026: written for card list 1.8.17 (the nine earlier cards now match that list, keeping the RBC Business Cash Back artwork). BMO's card images for the two new BMO business cards are held back until Cardwing ships card list 1.8.17: this file also applies to older builds (1.8.15, 1.8.16), which would add those cards as new ones. November 20, 2026: car rental status fixes (Avis Preferred Plus on the U.S. Platinum cards; Hertz Five Star on Capital One Venture, Savor and Quicksilver; Avis Preferred Plus and National Executive on Sapphire Reserve for Business; Venture X Business Hertz President's Circle given automatically; ranks on these cards put on the Status page's tier scale, also on the Canadian Platinum and Business Platinum: Hertz Five Star, Avis Preferred as the free base tier; the same tier scale on the Amex Gold, Delta SkyMiles Platinum and Reserve, Hilton Honors Aspire, Surpass and Business, Amex Aeroplan, Desjardins and Venture X cards) and Europcar's program renamed Privilege For You; IHG ranks put on the same tier scale (Platinum Elite 30, Diamond Elite 40) on Sapphire Reserve, Sapphire Reserve for Business, the three IHG One Rewards Premier cards and United Club, and Breezy 1 on the Breeze Easy Visa (20); November 21, 2026: GigSky's yearly 10 GB / 15-day plan on the Scotia Passport and Momentum Visa Infinite+ cards shown as a C$40 credit (one per card anniversary year, Cardwing estimate).",
   "cards": [
     {
       "id": "rbc-business-cash-back-mastercard-can",
@@ -1687,11 +1687,13 @@
           "id": "gigsky-10gb-2026",
           "title": "GigSky annual mobile data and Travel Essentials",
           "detail": "Visa Infinite+ cardholders get a complimentary 10 GB GigSky global data plan for 15 consecutive days each year, plus unlimited access to GigSky Travel Essentials for select travel apps (messaging, navigation and email; not streaming, video, voice calls or large file transfers). The standard Visa Infinite GigSky offer also applies: one complimentary 1 GB / 15-day plan each year and 20% off additional GigSky plans. Add the card as the default payment method in the GigSky app on an eSIM-compatible device; GigSky terms apply and GigSky may change the offer. The 10 GB plan and Travel Essentials are effective April 25, 2026.",
-          "capMinor": null,
-          "reset": "none",
+          "capMinor": 4000,
+          "passCount": 1,
+          "reset": "anniversary",
           "enrollmentRequired": true,
           "sourceURL": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/momentum-infinite-card.html",
-          "kind": "benefit",
+          "kind": "credit",
+          "valueNote": "Estimated value: C$40 for the yearly 10 GB / 15-day plan (Cardwing estimate; GigSky's app lists 3 GB for 15 days at C$25.99).",
           "priority": 50
         },
         {
@@ -1985,11 +1987,13 @@
           "id": "gigsky",
           "title": "GigSky connectivity (Visa Infinite +)",
           "detail": "Visa Infinite+ cardholders get a complimentary 10 GB GigSky global data plan for 15 consecutive days each year, plus unlimited access to GigSky Travel Essentials for select travel apps (messaging, navigation and email; not streaming, video, voice calls or large file transfers). The standard Visa Infinite GigSky offer also applies: one complimentary 1 GB / 15-day plan each year and 20% off additional GigSky plans. Add the card as the default payment method in the GigSky app on an eSIM-compatible device; GigSky terms apply and GigSky may change the offer. The 10 GB plan and Travel Essentials are effective April 25, 2026.",
-          "capMinor": null,
-          "reset": "none",
+          "capMinor": 4000,
+          "passCount": 1,
+          "reset": "anniversary",
           "enrollmentRequired": true,
           "sourceURL": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/passport-infinite-card.html",
-          "kind": "benefit"
+          "kind": "credit",
+          "valueNote": "Estimated value: C$40 for the yearly 10 GB / 15-day plan (Cardwing estimate; GigSky's app lists 3 GB for 15 days at C$25.99)."
         },
         {
           "id": "pot-avis-preferred-plus",
@@ -16258,6 +16262,7 @@
     }
   ],
   "french": {
-    "Visa Infinite+ cardholders get a complimentary 10 GB GigSky global data plan for 15 consecutive days each year, plus unlimited access to GigSky Travel Essentials for select travel apps (messaging, navigation and email; not streaming, video, voice calls or large file transfers). The standard Visa Infinite GigSky offer also applies: one complimentary 1 GB / 15-day plan each year and 20% off additional GigSky plans. Add the card as the default payment method in the GigSky app on an eSIM-compatible device; GigSky terms apply and GigSky may change the offer. The 10 GB plan and Travel Essentials are effective April 25, 2026.": "Les titulaires d'une carte Visa Infinite+ obtiennent chaque année un forfait de données mondial GigSky gratuit de 10 Go valide 15 jours consécutifs, ainsi qu'un accès illimité à Travel Essentials de GigSky pour certaines applis de voyage essentielles (messagerie, navigation et courriel; sauf diffusion en continu, vidéo, appels vocaux et transferts de fichiers volumineux). L'offre GigSky standard Visa Infinite s'applique aussi : un forfait gratuit de 1 Go valide 15 jours chaque année et 20 % de rabais sur les forfaits GigSky supplémentaires. Ajoutez la carte comme mode de paiement par défaut dans l'appli GigSky sur un appareil compatible eSIM; les conditions de GigSky s'appliquent et GigSky peut modifier l'offre. Le forfait de 10 Go et Travel Essentials sont en vigueur depuis le 25 avril 2026."
+    "Visa Infinite+ cardholders get a complimentary 10 GB GigSky global data plan for 15 consecutive days each year, plus unlimited access to GigSky Travel Essentials for select travel apps (messaging, navigation and email; not streaming, video, voice calls or large file transfers). The standard Visa Infinite GigSky offer also applies: one complimentary 1 GB / 15-day plan each year and 20% off additional GigSky plans. Add the card as the default payment method in the GigSky app on an eSIM-compatible device; GigSky terms apply and GigSky may change the offer. The 10 GB plan and Travel Essentials are effective April 25, 2026.": "Les titulaires d'une carte Visa Infinite+ obtiennent chaque année un forfait de données mondial GigSky gratuit de 10 Go valide 15 jours consécutifs, ainsi qu'un accès illimité à Travel Essentials de GigSky pour certaines applis de voyage essentielles (messagerie, navigation et courriel; sauf diffusion en continu, vidéo, appels vocaux et transferts de fichiers volumineux). L'offre GigSky standard Visa Infinite s'applique aussi : un forfait gratuit de 1 Go valide 15 jours chaque année et 20 % de rabais sur les forfaits GigSky supplémentaires. Ajoutez la carte comme mode de paiement par défaut dans l'appli GigSky sur un appareil compatible eSIM; les conditions de GigSky s'appliquent et GigSky peut modifier l'offre. Le forfait de 10 Go et Travel Essentials sont en vigueur depuis le 25 avril 2026.",
+    "Estimated value: C$40 for the yearly 10 GB / 15-day plan (Cardwing estimate; GigSky's app lists 3 GB for 15 days at C$25.99).": "Valeur estimée : 40 $ CA pour le forfait annuel de 10 Go valide 15 jours (estimation de Cardwing; l'appli GigSky affiche 3 Go pour 15 jours à 25,99 $ CA)."
   }
 }
