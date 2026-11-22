@@ -6650,7 +6650,7 @@
           "kind": "credit",
           "capMinor": 25000,
           "reset": "calendarYear",
-          "enrollmentRequired": false,
+          "enrollmentRequired": true,
           "endsBefore": "2027-01-01",
           "priority": 20,
           "sourceURL": "https://www.americanexpress.com/en-us/benefits/membership/experiences/"
@@ -7118,7 +7118,7 @@
           "kind": "credit",
           "capMinor": 25000,
           "reset": "calendarYear",
-          "enrollmentRequired": false,
+          "enrollmentRequired": true,
           "endsBefore": "2027-01-01",
           "priority": 20,
           "sourceURL": "https://www.americanexpress.com/en-us/benefits/membership/experiences/"
@@ -8379,7 +8379,7 @@
           "kind": "credit",
           "capMinor": 25000,
           "reset": "calendarYear",
-          "enrollmentRequired": false,
+          "enrollmentRequired": true,
           "endsBefore": "2027-01-01",
           "priority": 20,
           "sourceURL": "https://www.americanexpress.com/en-us/benefits/membership/experiences/"
@@ -8943,7 +8943,7 @@
           "kind": "credit",
           "capMinor": 25000,
           "reset": "calendarYear",
-          "enrollmentRequired": false,
+          "enrollmentRequired": true,
           "endsBefore": "2027-01-01",
           "priority": 20,
           "sourceURL": "https://www.americanexpress.com/en-us/benefits/membership/experiences/"
