@@ -3,7 +3,7 @@
   "version": 1,
   "updated": "2026-11-22",
   "catalogVersion": "1.8.18",
-  "note": "Cardwing 1.5 remote card fixes: official RBC Business Cash Back artwork; DoorDash benefit corrections in progress. November 15, 2026: written for card list 1.8.17 (the nine earlier cards now match that list, keeping the RBC Business Cash Back artwork). BMO's card images for the two new BMO business cards are held back until Cardwing ships card list 1.8.17: this file also applies to older builds (1.8.15, 1.8.16), which would add those cards as new ones. November 20, 2026: car rental status fixes (Avis Preferred Plus on the U.S. Platinum cards; Hertz Five Star on Capital One Venture, Savor and Quicksilver; Avis Preferred Plus and National Executive on Sapphire Reserve for Business; Venture X Business Hertz President's Circle given automatically; ranks on these cards put on the Status page's tier scale, also on the Canadian Platinum and Business Platinum: Hertz Five Star, Avis Preferred as the free base tier; the same tier scale on the Amex Gold, Delta SkyMiles Platinum and Reserve, Hilton Honors Aspire, Surpass and Business, Amex Aeroplan, Desjardins and Venture X cards) and Europcar's program renamed Privilege For You; IHG ranks put on the same tier scale (Platinum Elite 30, Diamond Elite 40) on Sapphire Reserve, Sapphire Reserve for Business, the three IHG One Rewards Premier cards and United Club, and Breezy 1 on the Breeze Easy Visa (20); November 21, 2026: car rental verify 4: Hertz Five Star / President's Circle on the Aeroplan cards (TD, CIBC, Amex, Chase) through Aeroplan's new Hertz partnership; Avis on TD Aeroplan Visa Infinite Privilege and Business, Chase Aeroplan, Citi AAdvantage Executive, Scotia Passport Visa Infinite Business and Sapphire Reserve; National Executive on Sapphire Reserve and the Wyndham Earner Plus, Premier and Business cards; Hertz Five Star on Desjardins Odyssey Visa Infinite Privilege and four more Capital One cards; official source links on the Desjardins, Scotia Passport and TD Aeroplan car rental grants. November 22, 2026: written for card list 1.8.18 (no fix here touches a card or program changed in that list); the file still applies to 1.8.17 and older builds. November 22, 2026: the RBC British Airways, Avion Visa Infinite and Avion Visa Infinite Privilege cards and the Scotia Momentum and Passport Visa Infinite+ cards taken out of this file. A fix replaces the whole card, so these entries put back the old GigSky benefit (a C$40 estimated credit on the Scotia cards, a perk on the RBC cards) over the app's new GigSky eSIM plans (count-only credits, no dollar value). Each build now uses its own card list for these five cards; the RBC entries were the same as card lists 1.8.17 and 1.8.18.",
+  "note": "Cardwing 1.5 remote card fixes: official RBC Business Cash Back artwork; DoorDash benefit corrections in progress. November 15, 2026: written for card list 1.8.17 (the nine earlier cards now match that list, keeping the RBC Business Cash Back artwork). BMO's card images for the two new BMO business cards are held back until Cardwing ships card list 1.8.17: this file also applies to older builds (1.8.15, 1.8.16), which would add those cards as new ones. November 20, 2026: car rental status fixes (Avis Preferred Plus on the U.S. Platinum cards; Hertz Five Star on Capital One Venture, Savor and Quicksilver; Avis Preferred Plus and National Executive on Sapphire Reserve for Business; Venture X Business Hertz President's Circle given automatically; ranks on these cards put on the Status page's tier scale, also on the Canadian Platinum and Business Platinum: Hertz Five Star, Avis Preferred as the free base tier; the same tier scale on the Amex Gold, Delta SkyMiles Platinum and Reserve, Hilton Honors Aspire, Surpass and Business, Amex Aeroplan, Desjardins and Venture X cards) and Europcar's program renamed Privilege For You; IHG ranks put on the same tier scale (Platinum Elite 30, Diamond Elite 40) on Sapphire Reserve, Sapphire Reserve for Business, the three IHG One Rewards Premier cards and United Club, and Breezy 1 on the Breeze Easy Visa (20); November 21, 2026: car rental verify 4: Hertz Five Star / President's Circle on the Aeroplan cards (TD, CIBC, Amex, Chase) through Aeroplan's new Hertz partnership; Avis on TD Aeroplan Visa Infinite Privilege and Business, Chase Aeroplan, Citi AAdvantage Executive, Scotia Passport Visa Infinite Business and Sapphire Reserve; National Executive on Sapphire Reserve and the Wyndham Earner Plus, Premier and Business cards; Hertz Five Star on Desjardins Odyssey Visa Infinite Privilege and four more Capital One cards; official source links on the Desjardins, Scotia Passport and TD Aeroplan car rental grants. November 22, 2026: written for card list 1.8.18 (no fix here touches a card or program changed in that list); the file still applies to 1.8.17 and older builds. November 22, 2026: the RBC British Airways, Avion Visa Infinite and Avion Visa Infinite Privilege cards and the Scotia Momentum and Passport Visa Infinite+ cards taken out of this file. A fix replaces the whole card, so these entries put back the old GigSky benefit (a C$40 estimated credit on the Scotia cards, a perk on the RBC cards) over the app's new GigSky eSIM plans (count-only credits, no dollar value). Each build now uses its own card list for these five cards; the RBC entries were the same as card lists 1.8.17 and 1.8.18. November 22, 2026: Delta SkyMiles Platinum and Reserve: the duplicate perks taken out (Platinum's second \"3X Delta purchases\" tile; Reserve's second checked-bag tile, \"Domestic second-bag eligibility\", whose text the \"First bag free; basic member's domestic second bag\" tile already has). The Annual Companion Certificate on the Delta SkyMiles Platinum, Platinum Business, Reserve and Reserve Business cards gets a display-only estimate of US$500 (estValueMinor, \"Cardwing estimate\"), never counted in any total; builds before card list 1.8.18 ignore it. These four cards are the same as card list 1.8.18 in the app.",
   "cards": [
     {
       "id": "rbc-business-cash-back-mastercard-can",
@@ -6708,23 +6708,14 @@
           "enrollmentRequired": false,
           "sourceURL": "https://www.delta.com/us/en/booking-information/companion-certificates",
           "kind": "benefit",
-          "priority": 100
+          "priority": 100,
+          "estValueMinor": 50000,
+          "estValueNote": "Cardwing estimate"
         },
         {
           "id": "mqd-headstart",
           "title": "MQD Headstart",
           "detail": "Basic Cardmember receives 2,500 MQDs per qualifying product/qualification year; eligible Platinum, Platinum Business, Reserve and Reserve Business are distinct products, maximum four product Headstarts. Deposit normally 6–8 weeks after February 1 or new-card opening. Additional holders receive no Headstart; MQDs are qualification credit, not redeemable miles or an automatic Medallion tier.",
-          "capMinor": null,
-          "reset": "none",
-          "enrollmentRequired": false,
-          "sourceURL": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/",
-          "kind": "benefit",
-          "priority": 100
-        },
-        {
-          "id": "delta-earn",
-          "title": "3X Delta purchases",
-          "detail": "Earn 3 SkyMiles per dollar on eligible purchases made directly with Delta.",
           "capMinor": null,
           "reset": "none",
           "enrollmentRequired": false,
@@ -7196,7 +7187,9 @@
           "enrollmentRequired": false,
           "sourceURL": "https://www.delta.com/us/en/booking-information/companion-certificates",
           "kind": "benefit",
-          "priority": 100
+          "priority": 100,
+          "estValueMinor": 50000,
+          "estValueNote": "Cardwing estimate"
         },
         {
           "id": "issuer-zone-5-priority-boarding",
@@ -8444,7 +8437,9 @@
           "enrollmentRequired": false,
           "sourceURL": "https://www.delta.com/us/en/booking-information/companion-certificates",
           "kind": "benefit",
-          "priority": 100
+          "priority": 100,
+          "estValueMinor": 50000,
+          "estValueNote": "Cardwing estimate"
         },
         {
           "id": "mqd-headstart",
@@ -8566,17 +8561,6 @@
           "reset": "none",
           "enrollmentRequired": false,
           "sourceURL": "https://global.americanexpress.com/card-benefits/detail/complimentary-access-centurion-lounge/delta-reserve",
-          "kind": "benefit",
-          "priority": 100
-        },
-        {
-          "id": "issuer-first-bag-free-and-new-second-bag-free",
-          "title": "Domestic second-bag eligibility",
-          "detail": "The domestic second standard checked-bag waiver applies only to each eligible basic Cardmember, once per direction, not to all travel companions. U.S. origin/destination, Delta/Delta Connection operated and Delta-marketed itinerary, SkyMiles-number and non-oversize/non-overweight conditions apply.",
-          "capMinor": null,
-          "reset": "none",
-          "enrollmentRequired": false,
-          "sourceURL": "https://www.delta.com/intl/en/baggage/checked-baggage/first-checked-bag-free",
           "kind": "benefit",
           "priority": 100
         },
@@ -9028,7 +9012,9 @@
           "enrollmentRequired": false,
           "sourceURL": "https://www.delta.com/us/en/booking-information/companion-certificates",
           "kind": "benefit",
-          "priority": 100
+          "priority": 100,
+          "estValueMinor": 50000,
+          "estValueNote": "Cardwing estimate"
         },
         {
           "id": "mqd-headstart",

@@ -213,6 +213,8 @@ STRUCTS = {
         "selectionOptions": ("[String]", True), "kind": ("String", True), "priority": ("Int", True),
         "spendMilestoneMinor": ("Int", True), "spendPeriod": ("ResetRule", True), "valueMinor": ("Int", True),
         "valueNote": ("String", True), "passCount": ("Int", True), "unit": ("String", True),
+        "anniversaryYearEndsAtStatement": ("Bool", True), "estValueMinor": ("Int", True), "estValueNote": ("String", True),
+        "estValueSourceURL": ("String", True), "startsAfterFirstRenewal": ("Bool", True),
     },
     "StatusGrant": {
         "id": ("String", False), "programID": ("String", False), "tier": ("String", False), "rank": ("Int", False),
@@ -763,7 +765,7 @@ def check_gating_keys(key, data, report, where):
 
 CARD_LINK_FIELDS = ["sourceURL", "artworkURL", "artworkPageURL", "reviewURL"]
 FR_FIELDS_CARD = ["feeNote", "coverageNote", "upcomingFeeNote"]
-FR_FIELDS_BENEFIT = ["title", "detail", "valueNote"]
+FR_FIELDS_BENEFIT = ["title", "detail", "valueNote", "estValueNote"]
 
 
 def check_link(value, purpose, report, where, allow_empty=True):
@@ -906,6 +908,31 @@ def check_cards(data, app, report):
                     report.warn(bw, f"{f} {v!r} is not a yyyy-MM-dd date")
             if isinstance(s, str) and isinstance(e, str) and s >= e:
                 report.error(bw, f"startsOn {s} is not before endsBefore {e}; the whole fix set is dropped")
+            # A perk's display-only estimate (Benefit.estValueMinor, "Est. US$500"): never counted
+            # anywhere. Only on a perk: a credit (capMinor), a counted membership value (valueMinor), a
+            # count-only credit (unit) or a protection would show it nowhere. Builds older than the
+            # field (card list 1.8.17 and older) ignore all three fields.
+            ev = b.get("estValueMinor")
+            if ev is not None:
+                if not isinstance(ev, int) or isinstance(ev, bool) or ev <= 0:
+                    report.error(bw, f"estValueMinor must be a positive whole number of cents (is {ev!r})")
+                elif ev > MAX_AMOUNT_MINOR:
+                    report.error(bw, f"estValueMinor {ev} out of range; the whole fix set is dropped")
+                if cap is not None or kind == "credit":
+                    report.error(bw, f"estValueMinor is display-only and never on a credit (capMinor {cap!r}, kind {kind!r}); "
+                                     "it would not be shown")
+                if b.get("valueMinor") is not None or unit is not None or kind == "protection":
+                    report.error(bw, "estValueMinor is for perks only (not with valueMinor, unit or kind \"protection\")")
+                if not isinstance(b.get("estValueNote"), str) or not b["estValueNote"].strip():
+                    report.error(bw, "estValueMinor needs an estValueNote saying how it was worked out")
+            elif b.get("estValueNote") is not None or b.get("estValueSourceURL") is not None:
+                report.error(bw, "estValueNote/estValueSourceURL without estValueMinor")
+            if b.get("estValueSourceURL") is not None:
+                check_link(b.get("estValueSourceURL"), "cardLink", report, f"{bw}.estValueSourceURL", allow_empty=False)
+            # A credit that starts after the card's first renewal (Benefit.startsAfterFirstRenewal).
+            # Builds older than the field ignore it and count the credit from day one.
+            if b.get("startsAfterFirstRenewal") is True and cap is None:
+                report.error(bw, "startsAfterFirstRenewal is for credits only (needs capMinor)")
             check_link(b.get("sourceURL"), "cardLink", report, f"{bw}.sourceURL")
             if c.get("market") == "CAN":
                 for f in FR_FIELDS_BENEFIT:
