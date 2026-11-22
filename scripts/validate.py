@@ -80,6 +80,9 @@ ENUM_SOURCES = {  # where each enum lives: (file, enum declaration name)
 # Strings in Models.swift; these are the values the code reads (`kind == "protection"`,
 # `"credit"`, `"cashback"`, `"carRental"`...) and the bundled catalog.json uses.
 BENEFIT_KINDS = {"benefit", "protection", "credit"}
+# Benefit.unit (Models.swift): a count-only credit with no money value ("esim": "1 eSIM").
+# capMinor and passCount are then both the number of units a period gives (Catalog.validate).
+BENEFIT_UNITS = {"esim"}
 PROGRAM_KINDS = {"bank", "airline", "hotel", "cashback", "carRental", "other", "travel", "cruise"}
 REWARD_KINDS = {"points", "cashback"}  # Catalog.validate(): anything else drops the whole fix set
 TRACKABLE_STATUS_PERIODS = {"monthly", "quarterly", "semiannual", "calendarYear"}  # StatusBenefits.swift
@@ -209,7 +212,7 @@ STRUCTS = {
         "intervalYears": ("Int", True), "reminderOnPeriodStart": ("Bool", True), "selectionLabel": ("String", True),
         "selectionOptions": ("[String]", True), "kind": ("String", True), "priority": ("Int", True),
         "spendMilestoneMinor": ("Int", True), "spendPeriod": ("ResetRule", True), "valueMinor": ("Int", True),
-        "valueNote": ("String", True), "passCount": ("Int", True),
+        "valueNote": ("String", True), "passCount": ("Int", True), "unit": ("String", True),
     },
     "StatusGrant": {
         "id": ("String", False), "programID": ("String", False), "tier": ("String", False), "rank": ("Int", False),
@@ -866,6 +869,26 @@ def check_cards(data, app, report):
             if kind is not None and kind not in BENEFIT_KINDS:
                 report.error(bw, f"unknown benefit kind {kind!r} (known: {', '.join(sorted(BENEFIT_KINDS))})")
             cap = b.get("capMinor")
+            unit = b.get("unit")
+            if unit is not None:
+                # Count-only credit: Catalog.validate rejects the whole card list (so the whole fix set is
+                # dropped) unless capMinor > 0 and passCount == capMinor. It has no dollar value anywhere.
+                if unit not in BENEFIT_UNITS:
+                    report.error(bw, f"unknown unit {unit!r} (known: {', '.join(sorted(BENEFIT_UNITS))})")
+                if kind != "credit":
+                    report.error(bw, f"unit {unit!r} needs kind \"credit\" (is {kind!r})")
+                if not (isinstance(cap, int) and not isinstance(cap, bool) and cap > 0) or b.get("passCount") != cap:
+                    report.error(bw, f"a unit credit needs capMinor > 0 equal to passCount (the number of units; is "
+                                     f"capMinor {cap!r}, passCount {b.get('passCount')!r}); the whole fix set is dropped")
+                for f in ("valueMinor", "monthOverrides"):
+                    if b.get(f) is not None:
+                        report.error(bw, f"a unit credit has no dollar value: remove {f} ({b.get(f)!r})")
+                vn = b.get("valueNote")
+                if isinstance(vn, str) and re.search(r"\$|\bC\$|\bUS\$|\d\s*(dollars?|CAD|USD)\b", vn):
+                    report.error(bw, f"a unit credit has no dollar value, but its valueNote names one: {vn[:60]!r}")
+                report.warn(bw, f"unit {unit!r}: app builds older than the `unit` field ignore it and read capMinor {cap!r} "
+                                "as money (C$0.0x credit, counted in totals). Publish only if every build this file "
+                                "applies to (catalogVersion and older) knows `unit`.")
             if kind == "credit" and not (isinstance(cap, int) and not isinstance(cap, bool) and cap > 0):
                 report.error(bw, f"kind \"credit\" needs a positive capMinor (is {cap!r}); without it the app shows it as a perk, not a trackable credit")
             for f in ("capMinor", "valueMinor", "spendMilestoneMinor"):

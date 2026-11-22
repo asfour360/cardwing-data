@@ -34,7 +34,9 @@ python3 scripts/validate.py
   anywhere. Only `profile.badges[].proOnly: true` is allowed.
 - Cards: `catalogVersion` not older than the app's card list; every card, benefit, status and earn rule
   has its required fields with the right types; known categories, reset types, benefit and program kinds;
-  `credit` benefits have a positive `capMinor`; no duplicate ids; amounts and dates in range; programs known;
+  `credit` benefits have a positive `capMinor`; a `unit` (count-only) credit has a known unit (`esim`), kind `credit`,
+  `capMinor` = `passCount` > 0 and no dollar value (no `valueMinor`, `monthOverrides` or `$` in `valueNote`), with a WARN
+  that builds older than `unit` read its `capMinor` as money; no duplicate ids; amounts and dates in range; programs known;
   links are HTTPS and on the app's card allowlist; status rank = (tier number) x 10, 0 for the base tier;
   `french` keys are used (WARN if not) and Canadian text has French (WARN).
 - Lounges: 3-letter airport codes (WARN if the app's list doesn't have it), known networks, names not empty,
