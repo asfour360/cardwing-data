@@ -43,7 +43,7 @@ MAX_AMOUNT_MINOR = 10_000_000_000  # Catalog.maxAmountMinor, Models.swift
 # ---------------------------------------------------------------------------------------------
 
 # Models.swift `enum Category`, `enum ResetRule`, `enum Market`, `enum LoungeProvider`;
-# StatusBenefits.swift `enum Topic`; RemoteAppData.swift `enum Feature`.
+# StatusBenefits.swift `enum Topic`; RemoteAppData.swift `enum Feature`; Models.swift `enum CreditUnit`.
 ENUMS = {
     "Category": [
         "flightsDirect", "flightsPortal", "hotelsDirect", "hotelsPortal", "dining", "groceries",
@@ -67,6 +67,7 @@ ENUMS = {
     ],
     "Topic": ["earn", "upgrades", "seats", "bags", "lounge", "stay", "partners", "other"],
     "Feature": ["loungePair", "amexDirectory", "amexWaitlist", "weather", "issuerPages"],
+    "CreditUnit": ["esim"],
 }
 ENUM_SOURCES = {  # where each enum lives: (file, enum declaration name)
     "Category": ("Sources/CardwingCore/Models.swift", "Category"),
@@ -75,14 +76,16 @@ ENUM_SOURCES = {  # where each enum lives: (file, enum declaration name)
     "LoungeProvider": ("Sources/CardwingCore/Models.swift", "LoungeProvider"),
     "Topic": ("Sources/CardwingCore/StatusBenefits.swift", "Topic"),
     "Feature": ("Sources/CardwingCore/RemoteAppData.swift", "Feature"),
+    "CreditUnit": ("Sources/CardwingCore/Models.swift", "CreditUnit"),
 }
 # String fields with a fixed set of values. Benefit.kind and LoyaltyProgram.kind are plain
 # Strings in Models.swift; these are the values the code reads (`kind == "protection"`,
 # `"credit"`, `"cashback"`, `"carRental"`...) and the bundled catalog.json uses.
 BENEFIT_KINDS = {"benefit", "protection", "credit"}
-# Benefit.unit (Models.swift): a count-only credit with no money value ("esim": "1 eSIM").
-# capMinor and passCount are then both the number of units a period gives (Catalog.validate).
-BENEFIT_UNITS = {"esim"}
+# Benefit.unit (a count-only credit with no money value, "esim": "1 eSIM") is checked against the
+# one allowed-units list, ENUMS["CreditUnit"]: Models.swift `enum CreditUnit`, read from the app
+# repo when it is there (built-in copy otherwise). capMinor and passCount are then both the number
+# of units a period gives (Catalog.validate). A new unit needs only a new CreditUnit case.
 PROGRAM_KINDS = {"bank", "airline", "hotel", "cashback", "carRental", "other", "travel", "cruise"}
 REWARD_KINDS = {"points", "cashback"}  # Catalog.validate(): anything else drops the whole fix set
 TRACKABLE_STATUS_PERIODS = {"monthly", "quarterly", "semiannual", "calendarYear"}  # StatusBenefits.swift
@@ -204,6 +207,7 @@ STRUCTS = {
         "artworkPageURL": ("String", True), "artworkSearchTerms": ("String", True), "reviewURL": ("String", True),
         "catalogLevel": ("String", True), "availability": ("String", True),
         "loungeAccess": ("[LoungeAccessGrant]", True), "benefitSourceURLs": ("[String]", True),
+        "statusMatchName": ("String", True),
     },
     "Benefit": {
         "id": ("String", False), "title": ("String", False), "detail": ("String", False), "capMinor": ("Int", True),
@@ -875,8 +879,8 @@ def check_cards(data, app, report):
             if unit is not None:
                 # Count-only credit: Catalog.validate rejects the whole card list (so the whole fix set is
                 # dropped) unless capMinor > 0 and passCount == capMinor. It has no dollar value anywhere.
-                if unit not in BENEFIT_UNITS:
-                    report.error(bw, f"unknown unit {unit!r} (known: {', '.join(sorted(BENEFIT_UNITS))})")
+                if unit not in ENUMS["CreditUnit"]:
+                    report.error(bw, f"unknown unit {unit!r} (known: {', '.join(sorted(ENUMS['CreditUnit']))})")
                 if kind != "credit":
                     report.error(bw, f"unit {unit!r} needs kind \"credit\" (is {kind!r})")
                 if not (isinstance(cap, int) and not isinstance(cap, bool) and cap > 0) or b.get("passCount") != cap:
