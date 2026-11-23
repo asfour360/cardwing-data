@@ -231,7 +231,7 @@ STRUCTS = {
         "detail": ("String", False), "countries": ("[String]", False), "startsOn": ("String", True),
         "endsBefore": ("String", True), "activationID": ("String", True), "capGroup": ("String", True),
         "capMinor": ("Int", True), "capReset": ("ResetRule", False), "sourceURL": ("String", False),
-        "calculationNote": ("String", True),
+        "calculationNote": ("String", True), "offWhenActivated": ("String", True),
     },
     "LoungeAccessGrant": {
         "id": ("String", False), "provider": ("LoungeProvider", False), "title": ("String", False),
@@ -983,6 +983,18 @@ def check_cards(data, app, report):
             s, e = r.get("startsOn"), r.get("endsBefore")
             if isinstance(s, str) and isinstance(e, str) and s >= e:
                 report.error(rw, f"startsOn {s} is not before endsBefore {e}; the whole fix set is dropped")
+            plan = r.get("offWhenActivated")
+            if plan is not None:
+                # Plan switch: the rule stops counting while another rule's activation of the same card is on
+                # (Neo: Gas & Grocery off on the Everywhere plan). Catalog.validate rejects the whole card list
+                # (so the whole fix set is dropped) unless another rule of the card has that activationID.
+                plans = {x.get("activationID") for x in c.get("earningRules") or [] if isinstance(x, dict) and x is not r}
+                if r.get("activationID") == plan or plan not in plans:
+                    report.error(rw, f"offWhenActivated {plan!r} must be the activationID of another earn rule of this "
+                                     "card (not its own); the whole fix set is dropped")
+                report.warn(rw, f"offWhenActivated {plan!r}: app builds older than the `offWhenActivated` field ignore it "
+                                "and count this rule with the other plan switched on. Check the card list the file "
+                                "applies to (catalogVersion and older) knows `offWhenActivated`.")
             check_link(r.get("sourceURL"), "pageLink", report, f"{rw}.sourceURL")
         # Lounge access
         lids = set()
